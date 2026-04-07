@@ -1,0 +1,21 @@
+# Revit Project Calibration File
+# =================================
+# Values from Revit > Project Base Point properties
+# All coordinates in meters, angle in degrees
+
+# Project Base Point - Shared Coordinates
+PBP_E = 24517724.1561
+PBP_N = 6687664.9191
+PBP_Z = 76.750
+
+# Angle to True North (degrees)
+ATN = 124.703
+
+# Internal Origin Offset (mm)
+# First-time setup: set all three to 0, run the script,
+# place pipes in Revit, then measure the XYZ offset
+# between where they landed and where they should be.
+# Enter those offsets here and re-run.
+Px = -150411.3
+Py = 361179.6
+Pz = -14117.0
