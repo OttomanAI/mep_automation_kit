@@ -1,9 +1,7 @@
 # Revit Project Calibration File
 # =================================
-# Values from Revit > Project Base Point properties
-# All coordinates in meters, angle in degrees
 
-# Project Base Point - Shared Coordinates
+# Project Base Point - Shared Coordinates (meters)
 PBP_E = 24517724.1561
 PBP_N = 6687664.9191
 PBP_Z = 76.750
@@ -12,10 +10,55 @@ PBP_Z = 76.750
 ATN = 124.703
 
 # Internal Origin Offset (mm)
-# First-time setup: set all three to 0, run the script,
-# place pipes in Revit, then measure the XYZ offset
-# between where they landed and where they should be.
-# Enter those offsets here and re-run.
 Px = -150411.3
 Py = 361179.6
 Pz = -14117.0
+
+# =================================
+# UNITS
+# =================================
+# CIVIL3D_UNITS = unit of the LandXML export coordinates
+# REVIT_UNITS   = unit Dynamo expects (match your Revit project units)
+#
+# Supported: mm, m, ft
+#
+CIVIL3D_UNITS = m
+REVIT_UNITS = mm
+
+# =================================
+# FILTERS (optional)
+# =================================
+# Three scopes:
+#   FILTER        = applies to BOTH pipes and structures
+#   PIPE_FILTER   = applies to pipes CSV only
+#   STRUCT_FILTER = applies to structures CSV only
+#
+# Format:  FILTER = column | operator | value
+#
+# Available columns:
+#   Pipes:      name, start_struct, end_struct, diameter, material, description
+#   Structures: name, description, diameter, material, rim, sump, invert, depth
+#
+# Operators: equals, not_equals, contains, not_contains,
+#            greater_than, less_than, starts_with, ends_with
+#
+# Multiple filters are combined with AND logic.
+# =================================
+
+# FILTER = name | contains | Battery Room
+# PIPE_FILTER = diameter | equals | 131
+STRUCT_FILTER = name | contains | BAT-MH
+
+# =================================
+# REPLACE / DELETE TEXT (optional)
+# =================================
+# Three scopes:
+#   REPLACE        = applies to BOTH
+#   PIPE_REPLACE   = pipes only
+#   STRUCT_REPLACE = structures only
+#
+# Format:  REPLACE = column | find_text | replace_text
+# Delete:  REPLACE = column | find_text |
+# =================================
+
+REPLACE = name | (Battery Room) |
