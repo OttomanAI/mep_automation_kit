@@ -2,8 +2,8 @@
 LandXML to Revit CSV Converter
 ================================
 Converts a Civil 3D LandXML pipe network export into two CSV files:
-  1. *_pipes.csv      - pipe segments with start/end coordinates for Dynamo
-  2. *_structures.csv - manholes with position, elevations, depth, size
+  1. *_pipes.csv      - pipe segments with start/end in internal coordinates
+  2. *_structures.csv - manholes with XY internal coords + Z project elevations
 
 Reads calibration, units, filter, and replace settings from revit_config.txt.
 
@@ -114,11 +114,9 @@ def load_config(config_path):
     if missing:
         raise ValueError(f"Missing values in config: {', '.join(missing)}")
 
-    # Default units
     values.setdefault('CIVIL3D_UNITS', 'm')
     values.setdefault('REVIT_UNITS', 'mm')
 
-    # Compute conversion factor
     values['coord_factor'] = get_conversion_factor(
         values['CIVIL3D_UNITS'], values['REVIT_UNITS'])
 
@@ -217,18 +215,25 @@ def shared_to_internal(easting, northing, elevation, cfg):
     cos_a = math.cos(atn_rad)
     sin_a = math.sin(atn_rad)
 
-    # Deltas in Civil 3D units
     dE = easting - cfg['PBP_E']
     dN = northing - cfg['PBP_N']
     dZ = elevation - cfg['PBP_Z']
 
-    # Convert to Revit units, rotate, add offset
     f = cfg['coord_factor']
     x = cfg['Px'] + (dE * cos_a - dN * sin_a) * f
     y = cfg['Py'] + (dE * sin_a + dN * cos_a) * f
     z = cfg['Pz'] + dZ * f
 
     return round(x, 1), round(y, 1), round(z, 1)
+
+
+def elevation_to_project(elevation_c3d, cfg):
+    """Convert a Civil 3D elevation to Revit project elevation.
+    This is simply the raw elevation converted to Revit units,
+    NOT transformed to internal coordinates.
+    Used for structure Z values that feed into FamilyInstance.ByPointAndLevel.
+    """
+    return round(elevation_c3d * cfg['coord_factor'], 1)
 
 
 # ============================================================
@@ -362,7 +367,7 @@ def parse_landxml(xml_path):
 # ============================================================
 
 def write_pipes_csv(pipes, cfg, output_path):
-    """Write pipe segments CSV."""
+    """Write pipe segments CSV with Revit internal coordinates."""
     rows = []
     for p in pipes:
         sx, sy, sz = shared_to_internal(
@@ -383,19 +388,25 @@ def write_pipes_csv(pipes, cfg, output_path):
 
 
 def write_structures_csv(structures, cfg, output_path):
-    """Write structures/manholes CSV."""
-    f = cfg['coord_factor']
+    """Write structures CSV.
+    X, Y = Revit internal coordinates (for placement position)
+    Z_Rim, Z_Sump, Z_Invert = PROJECT elevations (for ByPointAndLevel offset calc)
+    """
     rows = []
     for s in structures:
         x, y, _ = shared_to_internal(s['easting'], s['northing'], 0, cfg)
-        z_rim = cfg['Pz'] + (s['rim'] - cfg['PBP_Z']) * f if s['rim'] else 0
-        z_sump = cfg['Pz'] + (s['sump'] - cfg['PBP_Z']) * f if s['sump'] else 0
-        z_inv = cfg['Pz'] + (s['invert'] - cfg['PBP_Z']) * f if s['invert'] else 0
+
+        # Z values as PROJECT elevations (raw elevation * unit factor)
+        # NOT internal coordinates — these feed into ByPointAndLevel
+        # which needs: z_input = project_elev - level_elevation
+        z_rim = elevation_to_project(s['rim'], cfg)
+        z_sump = elevation_to_project(s['sump'], cfg)
+        z_inv = elevation_to_project(s['invert'], cfg)
 
         rows.append([
             s['name'], s['description'],
             x, y,
-            round(z_rim, 1), round(z_sump, 1), round(z_inv, 1),
+            z_rim, z_sump, z_inv,
             s['depth'],
             s['diameter'], s['material'],
             s['connected_pipes']
@@ -445,7 +456,6 @@ def convert(xml_path, cfg):
     structs, struct_details, pipes = parse_landxml(xml_path)
     print(f"  {len(struct_details)} structures, {len(pipes)} pipes")
 
-    # Build scoped lists
     f_both = cfg.get('filters_both', [])
     f_pipe = cfg.get('filters_pipe', [])
     f_struct = cfg.get('filters_struct', [])
@@ -458,7 +468,6 @@ def convert(xml_path, cfg):
     pipe_replacements = r_both + r_pipe
     struct_replacements = r_both + r_struct
 
-    # Filter
     if pipe_filters:
         print(f"\n  Pipe filters ({len(pipe_filters)}):")
         print_rules(pipe_filters)
@@ -471,7 +480,6 @@ def convert(xml_path, cfg):
         struct_details = filter_items(struct_details, struct_filters)
         print(f"    -> {len(struct_details)} structures")
 
-    # Replace
     if pipe_replacements:
         print(f"\n  Pipe replacements ({len(pipe_replacements)}):")
         print_rules(pipe_replacements)
@@ -482,7 +490,6 @@ def convert(xml_path, cfg):
         print_rules(struct_replacements)
         apply_replacements(struct_details, struct_replacements)
 
-    # Write pipes
     pipe_rows = write_pipes_csv(pipes, cfg, pipes_csv)
     if pipe_rows:
         all_z = [r[2] for r in pipe_rows] + [r[5] for r in pipe_rows]
@@ -492,7 +499,6 @@ def convert(xml_path, cfg):
     else:
         print(f"\n  Pipes: none to write")
 
-    # Write structures
     struct_rows = write_structures_csv(struct_details, cfg, structs_csv)
     if struct_rows:
         depths = [s['depth'] for s in struct_details if s['depth'] > 0]
@@ -501,6 +507,7 @@ def convert(xml_path, cfg):
         print(f"    {len(struct_rows)} manholes, sizes: {sizes}")
         if depths:
             print(f"    Depth range: {min(depths)} to {max(depths)}")
+        print(f"    Z_Rim = project elevation ({rev}), use with Level.Elevation in Dynamo")
     else:
         print(f"\n  Structures: none to write")
 
