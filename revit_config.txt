@@ -61,4 +61,4 @@ STRUCT_FILTER = name | contains | D-CP
 # Delete:  REPLACE = column | find_text |
 # =================================
 
-REPLACE = name | (Drainage Ditches)|
+REPLACE = name ||
