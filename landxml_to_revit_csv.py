@@ -389,19 +389,18 @@ def write_pipes_csv(pipes, cfg, output_path):
 
 def write_structures_csv(structures, cfg, output_path):
     """Write structures CSV.
-    X, Y = Revit internal coordinates (for placement position)
-    Z_Rim, Z_Sump, Z_Invert = PROJECT elevations (for ByPointAndLevel offset calc)
+    X, Y, Z_Rim, Z_Sump, Z_Invert = all Revit internal coordinates.
+    Same coordinate space as pipe endpoints.
     """
+    f = cfg['coord_factor']
     rows = []
     for s in structures:
         x, y, _ = shared_to_internal(s['easting'], s['northing'], 0, cfg)
 
-        # Z values as PROJECT elevations (raw elevation * unit factor)
-        # NOT internal coordinates — these feed into ByPointAndLevel
-        # which needs: z_input = project_elev - level_elevation
-        z_rim = elevation_to_project(s['rim'], cfg)
-        z_sump = elevation_to_project(s['sump'], cfg)
-        z_inv = elevation_to_project(s['invert'], cfg)
+        # Z values as internal coordinates (same as pipes)
+        z_rim = round(cfg['Pz'] + (s['rim'] - cfg['PBP_Z']) * f, 1) if s['rim'] else 0
+        z_sump = round(cfg['Pz'] + (s['sump'] - cfg['PBP_Z']) * f, 1) if s['sump'] else 0
+        z_inv = round(cfg['Pz'] + (s['invert'] - cfg['PBP_Z']) * f, 1) if s['invert'] else 0
 
         rows.append([
             s['name'], s['description'],
@@ -507,7 +506,7 @@ def convert(xml_path, cfg):
         print(f"    {len(struct_rows)} manholes, sizes: {sizes}")
         if depths:
             print(f"    Depth range: {min(depths)} to {max(depths)}")
-        print(f"    Z_Rim = project elevation ({rev}), use with Level.Elevation in Dynamo")
+        print(f"    Z_Rim = internal coordinates ({rev}), wire directly to Point.ByCoordinates Z")
     else:
         print(f"\n  Structures: none to write")
 

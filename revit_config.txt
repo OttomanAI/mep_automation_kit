@@ -12,7 +12,7 @@ ATN = 124.703
 # Internal Origin Offset (mm)
 Px = -150411.3
 Py = 361179.6
-Pz = -14117.0
+Pz = 0
 
 # =================================
 # UNITS
@@ -47,7 +47,7 @@ REVIT_UNITS = mm
 
 # FILTER = name | contains | Battery Room
 # PIPE_FILTER = diameter | equals | 131
-STRUCT_FILTER = name | contains | BAT-MH
+STRUCT_FILTER = name | contains | D-CP
 
 # =================================
 # REPLACE / DELETE TEXT (optional)
@@ -61,4 +61,4 @@ STRUCT_FILTER = name | contains | BAT-MH
 # Delete:  REPLACE = column | find_text |
 # =================================
 
-REPLACE = name | (Battery Room) |
+REPLACE = name | (Drainage Ditches)|
