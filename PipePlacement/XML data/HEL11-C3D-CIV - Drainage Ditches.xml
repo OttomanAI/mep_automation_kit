@@ -1,0 +1,767 @@
+<?xml version="1.0"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" date="2026-04-07" time="11:18:07" version="1.2" language="English" readOnly="false">
+	<Units>
+		<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="milliBars" diameterUnit="millimeter" angularUnit="decimal degrees" directionUnit="decimal degrees"></Metric>
+	</Units>
+	<CoordinateSystem desc="Deprecated, use OSGB1936.BritishNatGrid" epsgCode="27700" ogcWktCode="PROJCS[&quot;BritishNatGrid&quot;,GEOGCS[&quot;LL-OSGB-MOD&quot;,DATUM[&quot;OSGB-MOD&quot;,SPHEROID[&quot;AIRY30&quot;,6377563.396,299.32496127]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;Degree&quot;,0.017453292519943295]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;false_easting&quot;,400000.000],PARAMETER[&quot;false_northing&quot;,-100000.000],PARAMETER[&quot;scale_factor&quot;,0.999601271625],PARAMETER[&quot;central_meridian&quot;,-2.00000000000000],PARAMETER[&quot;latitude_of_origin&quot;,49.00000000000000],UNIT[&quot;Meter&quot;,1.00000000000000]]" horizontalDatum="OSGB-MOD" horizontalCoordinateSystemName="BritishNatGrid" fileLocation="AutoCAD Map Zone Name"></CoordinateSystem>
+	<Project name="C:\Users\f.karim\OneDrive - Glent Group\Documents\01 - HEL11 Workspaces\Drainage Ditches\data_original\HEL11-C3D-CIV - Drainage Ditches.dwg"></Project>
+	<Application name="Autodesk Civil 3D" desc="Civil 3D" manufacturer="Autodesk, Inc." version="2025" manufacturerURL="www.autodesk.com/civil" timeStamp="2026-04-07T11:18:07"></Application>
+	<PipeNetworks>
+		<PipeNetwork name="Drainage Ditches" pipeNetType="storm" alignmentRef="" desc="">
+			<Structs>
+				<Struct name="D-CP-15 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="76.997573617406" elevSump="75.91319797012">
+					<Center>6687819.527872930281 24517703.456791199744</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="76.03139797012" flowDir="out" refPipe="CO-12.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-16 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="76.902575334508" elevSump="75.016180961642">
+					<Center>6687820.777441429906 24517705.541600700468</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="75.134380961642" flowDir="out" refPipe="CO-11.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-20 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="76.252887500237" elevSump="74.186335844105">
+					<Center>6687623.292102999985 24517929.937025200576</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="74.186335844105" flowDir="out" refPipe="CO-5.000 (1) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH823 (Drainage Ditches)" desc="Null Structure" elevRim="75.898354220705">
+					<Center>6687781.385221179575 24517650.863288000226</Center>
+					<Connection></Connection>
+					<Invert elev="75.706554220705" flowDir="out" refPipe="CO-12.001 (Drainage Ditches)"></Invert>
+					<Invert elev="75.706554220705" flowDir="in" refPipe="CO-12.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-8 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="75.681268449563" elevSump="73.913064975987">
+					<Center>6687555.433168940246 24517349.878059599549</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.913064975987" flowDir="out" refPipe="CO-13.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-14 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="74.786940087007" elevSump="73.400543200527">
+					<Center>6687743.251659750007 24517598.444475699216</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.518743200527" flowDir="in" refPipe="CO-12.001 (Drainage Ditches)"></Invert>
+					<Invert elev="73.518743200527" flowDir="out" refPipe="CO-12.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-21 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="74.453403334263" elevSump="72.424439224068">
+					<Center>6687678.564542289823 24517938.2300564982</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="72.424439224068" flowDir="in" refPipe="CO-5.001 (Drainage Ditches)"></Invert>
+					<Invert elev="72.424439224068" flowDir="out" refPipe="CO-5.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-3 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="74.283279436365" elevSump="73.315089183286">
+					<Center>6687406.263311220333 24517312.018363699317</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.315089183286" flowDir="out" refPipe="CO-2.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-9 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="74.217191463999" elevSump="72.7318">
+					<Center>6687667.267165959813 24517433.637960199267</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="72.7318" flowDir="in" refPipe="CO-13.001 (Drainage Ditches)"></Invert>
+					<Invert elev="72.7318" flowDir="out" refPipe="CO-13.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-23 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="74.033028999597" elevSump="72.133608017343">
+					<Center>6687755.017226859927 24517938.797783300281</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="72.133608017343" flowDir="out" refPipe="CO-6.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH821 (Drainage Ditches)" desc="Null Structure" elevRim="73.661670212687">
+					<Center>6687627.825206800364 24517401.027417201549</Center>
+					<Connection></Connection>
+					<Invert elev="73.469870212687" flowDir="out" refPipe="CO-13.001 (Drainage Ditches)"></Invert>
+					<Invert elev="73.469870212687" flowDir="in" refPipe="CO-13.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH816 (Drainage Ditches)" desc="Null Structure" elevRim="73.333908790988">
+					<Center>6687381.41730093956 24517336.092507898808</Center>
+					<Connection></Connection>
+					<Invert elev="73.142108790988" flowDir="out" refPipe="CO-2.001 (Drainage Ditches)"></Invert>
+					<Invert elev="73.142108790988" flowDir="in" refPipe="CO-2.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH815 (Drainage Ditches)" desc="Null Structure" elevRim="73.133440182909">
+					<Center>6687358.180406649597 24517368.765941400081</Center>
+					<Connection></Connection>
+					<Invert elev="72.941640182909" flowDir="out" refPipe="CO-2.002 (Drainage Ditches)"></Invert>
+					<Invert elev="72.941640182909" flowDir="in" refPipe="CO-2.001 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH808 (Drainage Ditches)" desc="Null Structure" elevRim="72.758794122966">
+					<Center>6687805.849867809564 24517750.15813529864</Center>
+					<Connection></Connection>
+					<Invert elev="72.566994122966" flowDir="out" refPipe="CO-11.001 (Drainage Ditches)"></Invert>
+					<Invert elev="72.566994122966" flowDir="in" refPipe="CO-11.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH813 (Drainage Ditches)" desc="Null Structure" elevRim="72.685239986745">
+					<Center>6687667.466067910194 24517930.02834469825</Center>
+					<Connection></Connection>
+					<Invert elev="72.493439986745" flowDir="out" refPipe="CO-5.001 (Drainage Ditches)"></Invert>
+					<Invert elev="72.493439986745" flowDir="in" refPipe="CO-5.000 (1) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH817 (Drainage Ditches)" desc="Null Structure" elevRim="72.5836">
+					<Center>6687667.731999999844 24517460.278000000864</Center>
+					<Connection></Connection>
+					<Invert elev="72.3918" flowDir="out" refPipe="CO-13.003 (Drainage Ditches)"></Invert>
+					<Invert elev="72.3918" flowDir="in" refPipe="CO-13.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH812 (Drainage Ditches)" desc="Null Structure" elevRim="72.39111894261">
+					<Center>6687723.583232169971 24517938.925186999142</Center>
+					<Connection></Connection>
+					<Invert elev="72.19931894261" flowDir="out" refPipe="CO-5.003 (Drainage Ditches)"></Invert>
+					<Invert elev="72.19931894261" flowDir="in" refPipe="CO-5.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-10 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="72.390604165286" elevSump="71.322354623197">
+					<Center>6687676.598643950187 24517434.848550401628</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="71.322354623197" flowDir="out" refPipe="CO-14.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-11 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="72.16537235928" elevSump="70.2818">
+					<Center>6687697.30180114042 24517547.399492498487</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="70.2818" flowDir="in" refPipe="CO-13.005 (Drainage Ditches)"></Invert>
+					<Invert elev="70.2818" flowDir="out" refPipe="CO-13.006 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH811 (Drainage Ditches)" desc="Null Structure" elevRim="72.12078615287">
+					<Center>6687748.581513660029 24517954.973658699542</Center>
+					<Connection></Connection>
+					<Invert elev="71.92898615287" flowDir="in" refPipe="CO-6.000 (Drainage Ditches)"></Invert>
+					<Invert elev="71.92898615287" flowDir="in" refPipe="CO-5.003 (Drainage Ditches)"></Invert>
+					<Invert elev="71.92898615287" flowDir="out" refPipe="CO-5.004 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-26 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="71.940212397163" elevSump="70.972010033744">
+					<Center>6687792.435229850002 24517942.246181599796</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="70.972010033744" flowDir="out" refPipe="CO-8.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-22 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="71.71263854807" elevSump="70.0228">
+					<Center>6687738.354273079894 24517979.301483299583</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="70.023171209084" flowDir="in" refPipe="CO-5.004 (Drainage Ditches)"></Invert>
+					<Invert elev="70.0228" flowDir="out" refPipe="Pipe (18) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-25 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="71.675272900059" elevSump="70.707057105644">
+					<Center>6687770.9549675202 24517971.653099998832</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="70.707057105644" flowDir="in" refPipe="CO-8.001 (Drainage Ditches)"></Invert>
+					<Invert elev="70.707057105644" flowDir="out" refPipe="CO-8.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-24 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="71.22266373055" elevSump="69.760187542517">
+					<Center>6687741.816033160314 24517981.077633198351</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="69.760187542517" flowDir="in" refPipe="Pipe (12) (Drainage Ditches)"></Invert>
+					<Invert elev="69.983891785901" flowDir="in" refPipe="Pipe (18) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH819 (Drainage Ditches)" desc="Null Structure" elevRim="71.212885879279">
+					<Center>6687681.380681020208 24517452.154911201447</Center>
+					<Connection></Connection>
+					<Invert elev="71.021085879279" flowDir="out" refPipe="CO-14.001 (Drainage Ditches)"></Invert>
+					<Invert elev="71.021085879279" flowDir="in" refPipe="CO-14.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-17 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="71.051278295715" elevSump="68.864877759196">
+					<Center>6687806.131745279767 24517829.989925801754</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="68.983077759196" flowDir="in" refPipe="CO-11.001 (Drainage Ditches)"></Invert>
+					<Invert elev="68.983077759196" flowDir="out" refPipe="CO-11.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH810 (Drainage Ditches)" desc="Null Structure" elevRim="71.046069815193">
+					<Center>6687776.880041739903 24517954.842604100704</Center>
+					<Connection></Connection>
+					<Invert elev="70.854269815193" flowDir="out" refPipe="CO-8.001 (Drainage Ditches)"></Invert>
+					<Invert elev="70.854269815193" flowDir="in" refPipe="CO-8.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH818 (Drainage Ditches)" desc="Null Structure" elevRim="70.963026807621">
+					<Center>6687675.450415209867 24517462.904322098941</Center>
+					<Connection></Connection>
+					<Invert elev="70.771226807621" flowDir="in" refPipe="CO-14.001 (Drainage Ditches)"></Invert>
+					<Invert elev="70.771226807621" flowDir="out" refPipe="CO-13.004 (Drainage Ditches)"></Invert>
+					<Invert elev="70.771226807621" flowDir="in" refPipe="CO-13.003 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH820 (Drainage Ditches)" desc="Null Structure" elevRim="70.8461">
+					<Center>6687674.79598522 24517476.048307798803</Center>
+					<Connection></Connection>
+					<Invert elev="70.6518" flowDir="out" refPipe="CO-13.005 (Drainage Ditches)"></Invert>
+					<Invert elev="70.6018" flowDir="in" refPipe="CO-13.004 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-18 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="70.839119061286" elevSump="68.2818">
+					<Center>6687803.860196709633 24517921.402252100408</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="68.4" flowDir="in" refPipe="CO-11.002 (Drainage Ditches)"></Invert>
+					<Invert elev="68.4" flowDir="in" refPipe="CO-9.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-19 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="70.70177430342" elevSump="68.815036671018">
+					<Center>6687806.663240239955 24517980.564438201487</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="68.933236671018" flowDir="out" refPipe="CO-9.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH809 (Drainage Ditches)" desc="Null Structure" elevRim="70.047615034127">
+					<Center>6687760.62617709022 24517984.519749801606</Center>
+					<Connection></Connection>
+					<Invert elev="69.8558" flowDir="out" refPipe="Pipe (12) (Drainage Ditches)"></Invert>
+					<Invert elev="69.855499317454" flowDir="in" refPipe="CO-8.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-12 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="69.273619843259" elevSump="67.887194484289">
+					<Center>6687724.365098999813 24517536.669319000095</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="68.005394484289" flowDir="in" refPipe="CO-12.002 (Drainage Ditches)"></Invert>
+					<Invert elev="68.055394484289" flowDir="out" refPipe="CO-12.003 (Drainage Ditches)"></Invert>
+					<Invert elev="68.055394484289" flowDir="in" refPipe="CO-13.006 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-7 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="68.92346960651" elevSump="65.902211317318">
+					<Center>6687501.293764069676 24517945.1384428069</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="65.902211317318" flowDir="out" refPipe="CO-4.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-5 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="65.795816296742" elevSump="63.3276">
+					<Center>6687397.481557870284 24517653.112401198596</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="63.4458" flowDir="out" refPipe="CO-4.007 (Drainage Ditches)"></Invert>
+					<Invert elev="63.446094980083" flowDir="in" refPipe="CO-4.006 (Drainage Ditches)"></Invert>
+					<Invert elev="63.4458" flowDir="out" refPipe="Pipe (43) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-6 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="65.764870832539" elevSump="64.198921329148">
+					<Center>6687427.772635725327 24517800.520475249738</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="64.198921329148" flowDir="out" refPipe="CO-4.004 (Drainage Ditches)"></Invert>
+					<Invert elev="64.198921329148" flowDir="out" refPipe="Pipe (46) (Drainage Ditches)"></Invert>
+					<Invert elev="64.198921329148" flowDir="in" refPipe="CO-4.003 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-4 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="65.718801428109" elevSump="63.836244125078">
+					<Center>6687376.364156049676 24517492.716618601233</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="63.954444125078" flowDir="out" refPipe="CO-5.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-1 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="65.612955599882" elevSump="63.728322990003">
+					<Center>6687376.767887027003 24517490.045452680439</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="63.846522990003" flowDir="out" refPipe="CO-1.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH825 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="65.17206461482" elevSump="62.9458">
+					<Center>6687377.483217638917 24517555.262921806425</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="62.946297194946" flowDir="in" refPipe="CO-4.008 (Drainage Ditches)"></Invert>
+					<Invert elev="62.9458" flowDir="in" refPipe="CO-5.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH814 (Drainage Ditches)" desc="Null Structure" elevRim="65.143029058142">
+					<Center>6687468.788119474426 24517928.573776684701</Center>
+					<Connection></Connection>
+					<Invert elev="64.951229058142" flowDir="out" refPipe="CO-4.001 (Drainage Ditches)"></Invert>
+					<Invert elev="64.951229058142" flowDir="in" refPipe="CO-4.000 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-2 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="65.045365971014" elevSump="63.2598">
+					<Center>6687322.178909934126 24517393.324507959187</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="63.2598" flowDir="out" refPipe="CO-1.003 (Drainage Ditches)"></Invert>
+					<Invert elev="63.2598" flowDir="in" refPipe="CO-2.002 (Drainage Ditches)"></Invert>
+					<Invert elev="63.2598" flowDir="in" refPipe="CO-1.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH80 (Drainage Ditches)" desc="Null Structure" elevRim="64.894605187474">
+					<Center>6687454.85395797994 24517897.58133630082</Center>
+					<Connection></Connection>
+					<Invert elev="64.702696250524" flowDir="in" refPipe="CO-4.001 (Drainage Ditches)"></Invert>
+					<Invert elev="64.7028" flowDir="out" refPipe="CO-4.002 (Drainage Ditches)"></Invert>
+					<Invert elev="64.7028" flowDir="out" refPipe="Pipe (48) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Simple Junction (16) (Drainage Ditches)" desc="Null Structure" elevRim="64.812941862689">
+					<Center>6687439.277141430415 24517902.488967299461</Center>
+					<Connection></Connection>
+					<Invert elev="64.621141862689" flowDir="in" refPipe="Pipe (48) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH70 (Drainage Ditches)" desc="Null Structure" elevRim="64.644617763792">
+					<Center>6687440.765814130194 24517849.533081799746</Center>
+					<Connection></Connection>
+					<Invert elev="64.4528" flowDir="out" refPipe="CO-4.003 (Drainage Ditches)"></Invert>
+					<Invert elev="64.4528" flowDir="out" refPipe="Pipe (47) (Drainage Ditches)"></Invert>
+					<Invert elev="64.452444724158" flowDir="in" refPipe="CO-4.002 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Simple Junction (14) (Drainage Ditches)" desc="Null Structure" elevRim="64.562437778539">
+					<Center>6687425.096886330284 24517854.483831901103</Center>
+					<Connection></Connection>
+					<Invert elev="64.370637778539" flowDir="in" refPipe="Pipe (47) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Simple Junction (12) (Drainage Ditches)" desc="Null Structure" elevRim="64.309475778782">
+					<Center>6687410.358636519872 24517803.948642700911</Center>
+					<Connection></Connection>
+					<Invert elev="64.117675778782" flowDir="in" refPipe="Pipe (46) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH65 (Drainage Ditches)" desc="Null Structure" elevRim="64.138605122464">
+					<Center>6687416.650100409985 24517751.347279198468</Center>
+					<Connection></Connection>
+					<Invert elev="63.946697550724" flowDir="in" refPipe="CO-4.004 (Drainage Ditches)"></Invert>
+					<Invert elev="63.9468" flowDir="out" refPipe="CO-4.005 (Drainage Ditches)"></Invert>
+					<Invert elev="63.9468" flowDir="out" refPipe="Pipe (45) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Simple Junction (11) (Drainage Ditches)" desc="Null Structure" elevRim="64.056706846094">
+					<Center>6687400.55009092018 24517754.355474799871</Center>
+					<Connection></Connection>
+					<Invert elev="63.864906846094" flowDir="in" refPipe="Pipe (45) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-100 (Drainage Ditches)" desc="Null Structure" elevRim="63.948939842956">
+					<Center>6687367.765852545388 24517474.597049478441</Center>
+					<Connection></Connection>
+					<Invert elev="63.757123659958" flowDir="in" refPipe="CO-1.000 (Drainage Ditches)"></Invert>
+					<Invert elev="63.7568" flowDir="out" refPipe="CO-1.001 (Drainage Ditches)"></Invert>
+					<Invert elev="63.7568" flowDir="out" refPipe="Pipe (40) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH60 (Drainage Ditches)" desc="Null Structure" elevRim="63.887880459855">
+					<Center>6687407.046143510379 24517702.128955300897</Center>
+					<Connection></Connection>
+					<Invert elev="63.6958" flowDir="out" refPipe="CO-4.006 (Drainage Ditches)"></Invert>
+					<Invert elev="63.6958" flowDir="out" refPipe="Pipe (44) (Drainage Ditches)"></Invert>
+					<Invert elev="63.696067104623" flowDir="in" refPipe="CO-4.005 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Simple Junction (1) (Drainage Ditches)" desc="Null Structure" elevRim="63.863479036549">
+					<Center>6687352.453448019922 24517483.221284799278</Center>
+					<Connection></Connection>
+					<Invert elev="63.671679036549" flowDir="in" refPipe="Pipe (40) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Simple Junction (9) (Drainage Ditches)" desc="Null Structure" elevRim="63.80572729874">
+					<Center>6687390.977715070359 24517705.280332200229</Center>
+					<Connection></Connection>
+					<Invert elev="63.61392729874" flowDir="in" refPipe="Pipe (44) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH100 (Drainage Ditches)" desc="Null Structure" elevRim="63.698623767751">
+					<Center>6687342.544372614473 24517431.314434632659</Center>
+					<Connection></Connection>
+					<Invert elev="63.5068" flowDir="out" refPipe="CO-1.002 (Drainage Ditches)"></Invert>
+					<Invert elev="63.5068" flowDir="out" refPipe="Pipe (39) (Drainage Ditches)"></Invert>
+					<Invert elev="63.506324644984" flowDir="in" refPipe="CO-1.001 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Simple Junction (Drainage Ditches)" desc="Null Structure" elevRim="63.613479969337">
+					<Center>6687327.158701660112 24517439.9943343997</Center>
+					<Connection></Connection>
+					<Invert elev="63.421679969337" flowDir="in" refPipe="Pipe (39) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Simple Junction (6) (Drainage Ditches)" desc="Null Structure" elevRim="63.555744925465">
+					<Center>6687381.405339729972 24517656.205189500004</Center>
+					<Connection></Connection>
+					<Invert elev="63.363944925465" flowDir="in" refPipe="Pipe (43) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH55 (Drainage Ditches)" desc="Null Structure" elevRim="63.387763783998">
+					<Center>6687387.911648220383 24517604.068562600762</Center>
+					<Connection></Connection>
+					<Invert elev="63.1958" flowDir="out" refPipe="CO-4.008 (Drainage Ditches)"></Invert>
+					<Invert elev="63.1958" flowDir="out" refPipe="Pipe (42) (Drainage Ditches)"></Invert>
+					<Invert elev="63.19595598476" flowDir="in" refPipe="CO-4.007 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Simple Junction (5) (Drainage Ditches)" desc="Null Structure" elevRim="63.305762238555">
+					<Center>6687371.832964139991 24517607.130046900362</Center>
+					<Connection></Connection>
+					<Invert elev="63.113962238554" flowDir="in" refPipe="Pipe (42) (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH90 (Drainage Ditches)" desc="Null Structure" elevRim="63.300419411378">
+					<Center>6687298.377117768861 24517401.085586927831</Center>
+					<Connection></Connection>
+					<Invert elev="63.108619411378" flowDir="in" refPipe="CO-1.003 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH822 (Drainage Ditches)" desc="Null Structure" elevRim="62.662937454524">
+					<Center>6687705.577881390229 24517475.219099000096</Center>
+					<Connection></Connection>
+					<Invert elev="62.471137454524" flowDir="out" refPipe="CO-12.004 (Drainage Ditches)"></Invert>
+					<Invert elev="62.471137454524" flowDir="in" refPipe="CO-12.003 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="D-CP-13 (Drainage Ditches)" desc="Concentric Cylindrical Structure SI" elevRim="56.269247665529" elevSump="55.9326">
+					<Center>6687722.685136140324 24517467.221365299076</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="56.0508" flowDir="in" refPipe="CO-12.004 (Drainage Ditches)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+			</Structs>
+			<Pipes>
+				<Pipe name="CO-12.000 (Drainage Ditches)" refEnd="MH823 (Drainage Ditches)" refStart="D-CP-15 (Drainage Ditches)" desc="PE Pipe SDR11" length="64.969561987402" slope="0.005">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-12.001 (Drainage Ditches)" refEnd="D-CP-14 (Drainage Ditches)" refStart="MH823 (Drainage Ditches)" desc="PE Pipe SDR11" length="64.858977076509" slope="0.033751022085">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-12.002 (Drainage Ditches)" refEnd="D-CP-12 (Drainage Ditches)" refStart="D-CP-14 (Drainage Ditches)" desc="PE Pipe SDR11" length="64.832624320157" slope="0.08534889882">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-12.003 (Drainage Ditches)" refEnd="MH822 (Drainage Ditches)" refStart="D-CP-12 (Drainage Ditches)" desc="PE Pipe SDR11" length="64.500178372874" slope="0.086903701187">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-12.004 (Drainage Ditches)" refEnd="D-CP-13 (Drainage Ditches)" refStart="MH822 (Drainage Ditches)" desc="PE Pipe SDR11" length="19.945993143162" slope="0.339980372035">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-11.000 (Drainage Ditches)" refEnd="MH808 (Drainage Ditches)" refStart="D-CP-16 (Drainage Ditches)" desc="PE Pipe SDR11" length="47.117502999628" slope="0.054570096846">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-11.001 (Drainage Ditches)" refEnd="D-CP-17 (Drainage Ditches)" refStart="MH808 (Drainage Ditches)" desc="PE Pipe SDR11" length="79.912694150203" slope="0.044893068296">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-11.002 (Drainage Ditches)" refEnd="D-CP-18 (Drainage Ditches)" refStart="D-CP-17 (Drainage Ditches)" desc="PE Pipe SDR11" length="91.442404342358" slope="0.006376577885">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-9.000 (Drainage Ditches)" refEnd="D-CP-18 (Drainage Ditches)" refStart="D-CP-19 (Drainage Ditches)" desc="PE Pipe SDR11" length="59.230951863354" slope="0.009003034131">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-8.000 (Drainage Ditches)" refEnd="MH810 (Drainage Ditches)" refStart="D-CP-26 (Drainage Ditches)" desc="PE Pipe SDR11" length="20.016183445427" slope="0.005882352941">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-8.001 (Drainage Ditches)" refEnd="D-CP-25 (Drainage Ditches)" refStart="MH810 (Drainage Ditches)" desc="PE Pipe SDR11" length="17.824728565446" slope="0.008259184981">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-8.002 (Drainage Ditches)" refEnd="MH809 (Drainage Ditches)" refStart="D-CP-25 (Drainage Ditches)" desc="PE Pipe SDR11" length="16.521493260607" slope="0.0516110237">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (12) (Drainage Ditches)" refEnd="D-CP-24 (Drainage Ditches)" refStart="MH809 (Drainage Ditches)" desc="PE Pipe SDR11" length="19.122730535052" slope="0.004999999998">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-5.000 (1) (Drainage Ditches)" refEnd="MH813 (Drainage Ditches)" refStart="D-CP-20 (Drainage Ditches)" desc="PE Pipe SDR11" length="44.206486079793" slope="0.038323302955">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-5.001 (Drainage Ditches)" refEnd="D-CP-21 (Drainage Ditches)" refStart="MH813 (Drainage Ditches)" desc="PE Pipe SDR11" length="13.800325036388" slope="0.005">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-5.002 (Drainage Ditches)" refEnd="MH812 (Drainage Ditches)" refStart="D-CP-21 (Drainage Ditches)" desc="PE Pipe SDR11" length="45.024619088665" slope="0.005">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-5.003 (Drainage Ditches)" refEnd="MH811 (Drainage Ditches)" refStart="MH812 (Drainage Ditches)" desc="PE Pipe SDR11" length="29.707584910119" slope="0.009100166973">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-5.004 (Drainage Ditches)" refEnd="D-CP-22 (Drainage Ditches)" refStart="MH811 (Drainage Ditches)" desc="PE Pipe SDR11" length="26.458866760582" slope="0.072216931381">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (18) (Drainage Ditches)" refEnd="D-CP-24 (Drainage Ditches)" refStart="D-CP-22 (Drainage Ditches)" desc="PE Pipe SDR11" length="3.891015955557" slope="0.009999999976">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-6.000 (Drainage Ditches)" refEnd="MH811 (Drainage Ditches)" refStart="D-CP-23 (Drainage Ditches)" desc="PE Pipe SDR11" length="17.410319337428" slope="0.01175371883">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-13.000 (Drainage Ditches)" refEnd="MH821 (Drainage Ditches)" refStart="D-CP-8 (Drainage Ditches)" desc="PE Pipe SDR11" length="88.64006063985" slope="0.005">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-13.001 (Drainage Ditches)" refEnd="D-CP-9 (Drainage Ditches)" refStart="MH821 (Drainage Ditches)" desc="PE Pipe SDR11" length="51.182618188019" slope="0.014421828936">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-13.002 (Drainage Ditches)" refEnd="MH817 (Drainage Ditches)" refStart="D-CP-9 (Drainage Ditches)" desc="PE Pipe SDR11" length="26.646264115547" slope="0.012760801284">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-13.003 (Drainage Ditches)" refEnd="MH818 (Drainage Ditches)" refStart="MH817 (Drainage Ditches)" desc="PE Pipe SDR11" length="8.312506155729" slope="0.198770031825">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-13.004 (Drainage Ditches)" refEnd="MH820 (Drainage Ditches)" refStart="MH818 (Drainage Ditches)" desc="PE Pipe SDR11" length="13.161357989697" slope="0.012874115864">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-13.005 (Drainage Ditches)" refEnd="D-CP-11 (Drainage Ditches)" refStart="MH820 (Drainage Ditches)" desc="PE Pipe SDR11" length="74.817379052546" slope="0.004945435529">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-13.006 (Drainage Ditches)" refEnd="D-CP-12 (Drainage Ditches)" refStart="D-CP-11 (Drainage Ditches)" desc="PE Pipe SDR11" length="29.197869714282" slope="0.076474980073">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-14.000 (Drainage Ditches)" refEnd="MH819 (Drainage Ditches)" refStart="D-CP-10 (Drainage Ditches)" desc="PE Pipe SDR11" length="17.957415335416" slope="0.016779204867">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-14.001 (Drainage Ditches)" refEnd="MH818 (Drainage Ditches)" refStart="MH819 (Drainage Ditches)" desc="PE Pipe SDR11" length="12.279263690472" slope="0.020352263804">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-4.000 (Drainage Ditches)" refEnd="MH814 (Drainage Ditches)" refStart="D-CP-7 (Drainage Ditches)" desc="PE Pipe SDR11" length="36.495334791585" slope="0.026066490083">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-1.003 (Drainage Ditches)" refEnd="MH90 (Drainage Ditches)" refStart="D-CP-2 (Drainage Ditches)" desc="PE Pipe SDR11" length="25.035624869501" slope="0.006038728647">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-2.000 (Drainage Ditches)" refEnd="MH816 (Drainage Ditches)" refStart="D-CP-3 (Drainage Ditches)" desc="PE Pipe SDR11" length="34.596510922725" slope="0.004999999998">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-2.001 (Drainage Ditches)" refEnd="MH815 (Drainage Ditches)" refStart="MH816 (Drainage Ditches)" desc="PE Pipe SDR11" length="40.094222784185" slope="0.005">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-2.002 (Drainage Ditches)" refEnd="D-CP-2 (Drainage Ditches)" refStart="MH815 (Drainage Ditches)" desc="PE Pipe SDR11" length="44.6426812201" slope="0.222161612626">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-1.002 (Drainage Ditches)" refEnd="D-CP-2 (Drainage Ditches)" refStart="MH100 (Drainage Ditches)" desc="PE Pipe SDR11" length="43.105076358132" slope="0.00573027764">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (39) (Drainage Ditches)" refEnd="Simple Junction (Drainage Ditches)" refStart="MH100 (Drainage Ditches)" desc="PE Pipe SDR11" length="17.665411857678" slope="0.004818513121">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-1.000 (Drainage Ditches)" refEnd="D-CP-100 (Drainage Ditches)" refStart="D-CP-1 (Drainage Ditches)" desc="PE Pipe SDR11" length="17.880094477935" slope="0.00499999861">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-1.001 (Drainage Ditches)" refEnd="MH100 (Drainage Ditches)" refStart="D-CP-100 (Drainage Ditches)" desc="PE Pipe SDR11" length="50.095613936725" slope="0.005000008309">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (40) (Drainage Ditches)" refEnd="Simple Junction (1) (Drainage Ditches)" refStart="D-CP-100 (Drainage Ditches)" desc="PE Pipe SDR11" length="17.574254260113" slope="0.004843560396">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-4.008 (Drainage Ditches)" refEnd="MH825 (Drainage Ditches)" refStart="MH55 (Drainage Ditches)" desc="PE Pipe SDR11" length="49.907965189817" slope="0.00499932069">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (42) (Drainage Ditches)" refEnd="Simple Junction (5) (Drainage Ditches)" refStart="MH55 (Drainage Ditches)" desc="PE Pipe SDR11" length="16.36775688031" slope="0.005000000001">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-4.007 (Drainage Ditches)" refEnd="MH55 (Drainage Ditches)" refStart="D-CP-5 (Drainage Ditches)" desc="PE Pipe SDR11" length="49.969427624795" slope="0.005000000003">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (43) (Drainage Ditches)" refEnd="Simple Junction (6) (Drainage Ditches)" refStart="D-CP-5 (Drainage Ditches)" desc="PE Pipe SDR11" length="16.371219546064" slope="0.004999999999">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-4.006 (Drainage Ditches)" refEnd="D-CP-5 (Drainage Ditches)" refStart="MH60 (Drainage Ditches)" desc="PE Pipe SDR11" length="49.941628198603" slope="0.005000000004">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (44) (Drainage Ditches)" refEnd="Simple Junction (9) (Drainage Ditches)" refStart="MH60 (Drainage Ditches)" desc="PE Pipe SDR11" length="16.374744945583" slope="0.004999999996">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-4.004 (Drainage Ditches)" refEnd="MH65 (Drainage Ditches)" refStart="D-CP-6 (Drainage Ditches)" desc="PE Pipe SDR11" length="50.416045249226" slope="0.005002909959">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-4.005 (Drainage Ditches)" refEnd="MH60 (Drainage Ditches)" refStart="MH65 (Drainage Ditches)" desc="PE Pipe SDR11" length="50.147205928152" slope="0.004999999998">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (45) (Drainage Ditches)" refEnd="Simple Junction (11) (Drainage Ditches)" refStart="MH65 (Drainage Ditches)" desc="PE Pipe SDR11" length="16.378835515285" slope="0.004999999999">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (46) (Drainage Ditches)" refEnd="Simple Junction (12) (Drainage Ditches)" refStart="D-CP-6 (Drainage Ditches)" desc="PE Pipe SDR11" length="17.748416865747" slope="0.004577670348">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-4.003 (Drainage Ditches)" refEnd="D-CP-6 (Drainage Ditches)" refStart="MH70 (Drainage Ditches)" desc="PE Pipe SDR11" length="50.706239658114" slope="0.005006915417">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (47) (Drainage Ditches)" refEnd="Simple Junction (14) (Drainage Ditches)" refStart="MH70 (Drainage Ditches)" desc="PE Pipe SDR11" length="16.432649682736" slope="0.005000000004">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-4.001 (Drainage Ditches)" refEnd="MH80 (Drainage Ditches)" refStart="MH814 (Drainage Ditches)" desc="PE Pipe SDR11" length="33.981671325279" slope="0.007313926752">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-4.002 (Drainage Ditches)" refEnd="MH70 (Drainage Ditches)" refStart="MH80 (Drainage Ditches)" desc="PE Pipe SDR11" length="50.071680973334" slope="0.005000000008">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe (48) (Drainage Ditches)" refEnd="Simple Junction (16) (Drainage Ditches)" refStart="MH80 (Drainage Ditches)" desc="PE Pipe SDR11" length="16.331831614603" slope="0.004999999997">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="CO-5.000 (Drainage Ditches)" refEnd="MH825 (Drainage Ditches)" refStart="D-CP-4 (Drainage Ditches)" desc="PE Pipe SDR11" length="62.564444426906" slope="0.01612377825">
+					<CircPipe diameter="163.6" material="PE/SE2" thickness="0.0182"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+			</Pipes>
+		</PipeNetwork>
+	</PipeNetworks>
+</LandXML>

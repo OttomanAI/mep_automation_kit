@@ -1,0 +1,212 @@
+{
+  "Battery_Room": {
+    "XML_FILE": "HEL11-C3D-CIV - Drainage Battery Room Model.xml",
+    "PBP_E": 24517724.1561,
+    "PBP_N": 6687664.9191,
+    "PBP_Z": 76.75,
+    "ATN": 124.703,
+    "Px": -150411.3,
+    "Py": 361179.6,
+    "Pz": 0.0,
+    "CIVIL3D_UNITS": "m",
+    "REVIT_UNITS": "mm",
+    "filters_both": [],
+    "filters_pipe": [],
+    "filters_struct": [
+      {
+        "column": "name",
+        "operator": "contains",
+        "value": "BAT-MH"
+      }
+    ],
+    "replace_both": [
+      {
+        "column": "name",
+        "find": "(Battery Room)",
+        "replace": ""
+      }
+    ],
+    "replace_pipe": [],
+    "replace_struct": []
+  },
+  "Drainage_Ditches": {
+    "XML_FILE": "HEL11-C3D-CIV - Drainage Ditches.xml",
+    "PBP_E": 24517724.1561,
+    "PBP_N": 6687664.9191,
+    "PBP_Z": 76.75,
+    "ATN": 124.703,
+    "Px": -150411.3,
+    "Py": 361179.6,
+    "Pz": 0.0,
+    "CIVIL3D_UNITS": "m",
+    "REVIT_UNITS": "mm",
+    "filters_both": [],
+    "filters_pipe": [],
+    "filters_struct": [
+      {
+        "column": "name",
+        "operator": "contains",
+        "value": "D-CP"
+      }
+    ],
+    "replace_both": [
+      {
+        "column": "name",
+        "find": "(Drainage Ditches)",
+        "replace": ""
+      }
+    ],
+    "replace_pipe": [],
+    "replace_struct": []
+  },
+  "Foul_Water": {
+    "XML_FILE": "HEL11-C3D-CIV - Drainage Foul Water Model.xml",
+    "PBP_E": 24517724.1561,
+    "PBP_N": 6687664.9191,
+    "PBP_Z": 76.75,
+    "ATN": 124.703,
+    "Px": -150411.3,
+    "Py": 361179.6,
+    "Pz": -14102.8,
+    "CIVIL3D_UNITS": "m",
+    "REVIT_UNITS": "mm",
+    "filters_both": [],
+    "filters_pipe": [],
+    "filters_struct": [
+      {
+        "column": "name",
+        "operator": "contains",
+        "value": "FWMH"
+      }
+    ],
+    "replace_both": [
+      {
+        "column": "name",
+        "find": "(Foul Water)",
+        "replace": ""
+      }
+    ],
+    "replace_pipe": [],
+    "replace_struct": []
+  },
+  "Oily_Water": {
+    "XML_FILE": "HEL11-C3D-CIV - Drainage Oily Water Model.xml",
+    "PBP_E": 24517724.1561,
+    "PBP_N": 6687664.9191,
+    "PBP_Z": 76.75,
+    "ATN": 124.703,
+    "Px": -150411.3,
+    "Py": 361179.6,
+    "Pz": -14102.8,
+    "CIVIL3D_UNITS": "m",
+    "REVIT_UNITS": "mm",
+    "filters_both": [],
+    "filters_pipe": [],
+    "filters_struct": [
+      {
+        "column": "name",
+        "operator": "contains",
+        "value": "TFD-MH"
+      }
+    ],
+    "replace_both": [
+      {
+        "column": "name",
+        "find": "(Oily Water)",
+        "replace": ""
+      }
+    ],
+    "replace_pipe": [],
+    "replace_struct": []
+  },
+  "Rainwater": {
+    "XML_FILE": "HEL11-C3D-CIV - Drainage Rainwater Model.xml",
+    "PBP_E": 24517724.1561,
+    "PBP_N": 6687664.9191,
+    "PBP_Z": 76.75,
+    "ATN": 124.703,
+    "Px": -150411.3,
+    "Py": 361179.6,
+    "Pz": 0.0,
+    "CIVIL3D_UNITS": "m",
+    "REVIT_UNITS": "mm",
+    "filters_both": [],
+    "filters_pipe": [],
+    "filters_struct": [
+      {
+        "column": "name",
+        "operator": "contains",
+        "value": "RW-MH"
+      }
+    ],
+    "replace_both": [
+      {
+        "column": "name",
+        "find": "(Rainwater)",
+        "replace": ""
+      }
+    ],
+    "replace_pipe": [],
+    "replace_struct": []
+  },
+  "Stormwater": {
+    "XML_FILE": "HEL11-C3D-CIV - Drainage SW + CP Model.xml",
+    "PBP_E": 24517724.1561,
+    "PBP_N": 6687664.9191,
+    "PBP_Z": 76.75,
+    "ATN": 124.703,
+    "Px": -150411.3,
+    "Py": 361179.6,
+    "Pz": -14102.8,
+    "CIVIL3D_UNITS": "m",
+    "REVIT_UNITS": "mm",
+    "filters_both": [],
+    "filters_pipe": [],
+    "filters_struct": [
+      {
+        "column": "name",
+        "operator": "contains",
+        "value": "SWMH"
+      }
+    ],
+    "replace_both": [
+      {
+        "column": "name",
+        "find": "(Stormwater)",
+        "replace": ""
+      }
+    ],
+    "replace_pipe": [],
+    "replace_struct": []
+  },
+  "Sub_Soil": {
+    "XML_FILE": "HEL11-C3D-CIV - Drainage Sub Soil Model.xml",
+    "PBP_E": 24517724.1561,
+    "PBP_N": 6687664.9191,
+    "PBP_Z": 76.75,
+    "ATN": 124.703,
+    "Px": -150411.3,
+    "Py": 361179.6,
+    "Pz": -14102.8,
+    "CIVIL3D_UNITS": "m",
+    "REVIT_UNITS": "mm",
+    "filters_both": [],
+    "filters_pipe": [],
+    "filters_struct": [
+      {
+        "column": "name",
+        "operator": "contains",
+        "value": "SD-MH"
+      }
+    ],
+    "replace_both": [
+      {
+        "column": "name",
+        "find": "(Sub Soil)",
+        "replace": ""
+      }
+    ],
+    "replace_pipe": [],
+    "replace_struct": []
+  }
+}

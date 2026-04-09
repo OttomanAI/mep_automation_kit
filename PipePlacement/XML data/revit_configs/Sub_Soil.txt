@@ -1,0 +1,34 @@
+# Revit Project Calibration File
+# =================================
+
+# XML file to process (in parent folder)
+XML_FILE = HEL11-C3D-CIV - Drainage Sub Soil Model.xml
+
+# Project Base Point - Shared Coordinates (meters)
+PBP_E = 24517724.1561
+PBP_N = 6687664.9191
+PBP_Z = 76.750
+
+# Angle to True North (degrees)
+ATN = 124.703
+
+# Internal Origin Offset (mm)
+Px = -150411.3
+Py = 361179.6
+Pz = -14102.8
+
+# =================================
+# UNITS
+# =================================
+CIVIL3D_UNITS = m
+REVIT_UNITS = mm
+
+# =================================
+# FILTERS (optional)
+# =================================
+STRUCT_FILTER = name | contains | SD-MH
+
+# =================================
+# REPLACE / DELETE TEXT (optional)
+# =================================
+REPLACE = name | (Sub Soil)|

@@ -1,0 +1,1097 @@
+<?xml version="1.0"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" date="2026-04-09" time="11:30:51" version="1.2" language="English" readOnly="false">
+	<Units>
+		<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="milliBars" diameterUnit="millimeter" angularUnit="decimal degrees" directionUnit="decimal degrees"></Metric>
+	</Units>
+	<CoordinateSystem desc="Deprecated, use OSGB1936.BritishNatGrid" epsgCode="27700" ogcWktCode="PROJCS[&quot;BritishNatGrid&quot;,GEOGCS[&quot;LL-OSGB-MOD&quot;,DATUM[&quot;OSGB-MOD&quot;,SPHEROID[&quot;AIRY30&quot;,6377563.396,299.32496127]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;Degree&quot;,0.017453292519943295]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;false_easting&quot;,400000.000],PARAMETER[&quot;false_northing&quot;,-100000.000],PARAMETER[&quot;scale_factor&quot;,0.999601271625],PARAMETER[&quot;central_meridian&quot;,-2.00000000000000],PARAMETER[&quot;latitude_of_origin&quot;,49.00000000000000],UNIT[&quot;Meter&quot;,1.00000000000000]]" horizontalDatum="OSGB-MOD" horizontalCoordinateSystemName="BritishNatGrid" fileLocation="AutoCAD Map Zone Name"></CoordinateSystem>
+	<Project name="C:\Users\f.karim\OneDrive - Glent Group\Documents\01 - HEL11 Workspaces\Battery Room Drainage\data_processed\HEL11-C3D-CIV - Drainage Battery Room Model DUPLICATE.dwg"></Project>
+	<Application name="Autodesk Civil 3D" desc="Civil 3D" manufacturer="Autodesk, Inc." version="2025" manufacturerURL="www.autodesk.com/civil" timeStamp="2026-04-09T11:30:51"></Application>
+	<PipeNetworks>
+		<PipeNetwork name="Battery Room" pipeNetType="storm" alignmentRef="" desc="">
+			<Structs>
+				<Struct name="EndNullStruct530" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687523.814601118676 24517490.204394094646</Center>
+					<Connection></Connection>
+					<Invert elev="73.587" flowDir="in" refPipe="Pipe506 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct318" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687410.835364116356 24517393.217082075775</Center>
+					<Connection></Connection>
+					<Invert elev="74.82719621257" flowDir="in" refPipe="Pipe521 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct319" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687421.615488013253 24517398.879551362246</Center>
+					<Connection></Connection>
+					<Invert elev="74.858238128671" flowDir="in" refPipe="Pipe532 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct320" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687566.723029019311 24517494.157775413245</Center>
+					<Connection></Connection>
+					<Invert elev="73.60107434199" flowDir="in" refPipe="Pipe542 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct321" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687563.760949882679 24517498.435119107366</Center>
+					<Connection></Connection>
+					<Invert elev="73.536038796554" flowDir="in" refPipe="Pipe543 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct322" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687424.249793122523 24517395.075546503067</Center>
+					<Connection></Connection>
+					<Invert elev="74.916076827305" flowDir="in" refPipe="Pipe548 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct323" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687480.300884062424 24517433.88367113471</Center>
+					<Connection></Connection>
+					<Invert elev="74.523567385486" flowDir="in" refPipe="Pipe557 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct324" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687477.657096673734 24517437.701368685812</Center>
+					<Connection></Connection>
+					<Invert elev="74.50034862888" flowDir="in" refPipe="Pipe558 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct325" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687507.194391786121 24517459.244319502264</Center>
+					<Connection></Connection>
+					<Invert elev="74.494201576491" flowDir="in" refPipe="Pipe560 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct326" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687509.922084883787 24517455.305307824165</Center>
+					<Connection></Connection>
+					<Invert elev="74.518157850534" flowDir="in" refPipe="Pipe561 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct327" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687523.564768518321 24517469.629778876901</Center>
+					<Connection></Connection>
+					<Invert elev="73.8738435451" flowDir="in" refPipe="Pipe563 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct328" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687533.159921589307 24517476.709480121732</Center>
+					<Connection></Connection>
+					<Invert elev="73.792185783893" flowDir="in" refPipe="Pipe564 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct329" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687536.049317194149 24517472.537109013647</Center>
+					<Connection></Connection>
+					<Invert elev="73.855625331427" flowDir="in" refPipe="Pipe565 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct330" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687552.817742165178 24517490.314901154488</Center>
+					<Connection></Connection>
+					<Invert elev="73.635688621838" flowDir="in" refPipe="Pipe566 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct331" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687497.833534456789 24517452.39563190192</Center>
+					<Connection></Connection>
+					<Invert elev="74.627340538731" flowDir="in" refPipe="Pipe567 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct332" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687500.962019803002 24517448.838207948953</Center>
+					<Connection></Connection>
+					<Invert elev="74.651027394655" flowDir="in" refPipe="Pipe569 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct333" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687451.199009792879 24517420.449207630008</Center>
+					<Connection></Connection>
+					<Invert elev="74.702886044828" flowDir="in" refPipe="Pipe574 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="StartNullStruct334" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>6687439.3308143951 24517416.255561411381</Center>
+					<Connection></Connection>
+					<Invert elev="74.757248482877" flowDir="in" refPipe="Pipe577 (Battery Room)"></Invert>
+				</Struct>
+				<Struct name="BAT-MH13 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.741627139669" elevSump="73.230337818202">
+					<Center>6687565.731917407364 24517520.63583323732</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.230337818202" flowDir="in" refPipe="BATP12 (Battery Room)"></Invert>
+					<Invert elev="73.230337818202" flowDir="out" refPipe="BATP13 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH4 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.740123367062" elevSump="74.231932201962">
+					<Center>6687442.191954959184 24517435.078205645084</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="74.232386222967" flowDir="in" refPipe="BATP03 (Battery Room)"></Invert>
+					<Invert elev="74.232" flowDir="out" refPipe="BATP04 (Battery Room)"></Invert>
+					<Invert elev="74.232" flowDir="in" refPipe="Pipe497 (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH3 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.740071063947" elevSump="74.321">
+					<Center>6687431.267252285033 24517427.518221639097</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="74.321322713299" flowDir="in" refPipe="BATP02 (Battery Room)"></Invert>
+					<Invert elev="74.321" flowDir="out" refPipe="BATP03 (Battery Room)"></Invert>
+					<Invert elev="74.321" flowDir="in" refPipe="Pipe551 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH5 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.740064876362" elevSump="74.095806334597">
+					<Center>6687458.97586411424 24517446.707024861127</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="74.095806334597" flowDir="in" refPipe="BATP04 (Battery Room)"></Invert>
+					<Invert elev="74.096" flowDir="out" refPipe="BATP05 (Battery Room)"></Invert>
+					<Invert elev="74.096" flowDir="in" refPipe="Pipe531 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH6 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.740063676879" elevSump="74.027759178617">
+					<Center>6687467.386953735724 24517452.531721420586</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="74.027759178617" flowDir="in" refPipe="BATP05 (Battery Room)"></Invert>
+					<Invert elev="74.028" flowDir="out" refPipe="BATP06 (Battery Room)"></Invert>
+					<Invert elev="74.028" flowDir="in" refPipe="Pipe502 (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH10 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.740063645879" elevSump="73.572">
+					<Center>6687523.528068588115 24517491.409572470933</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.572433908197" flowDir="in" refPipe="BATP09 (Battery Room)"></Invert>
+					<Invert elev="73.572" flowDir="out" refPipe="BATP10 (Battery Room)"></Invert>
+					<Invert elev="73.572" flowDir="in" refPipe="Pipe525 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH12 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.740063554824" elevSump="73.310709402861">
+					<Center>6687555.78982190229 24517513.750909611583</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.310709402861" flowDir="in" refPipe="BATP11 (Battery Room)"></Invert>
+					<Invert elev="73.311" flowDir="out" refPipe="BATP12 (Battery Room)"></Invert>
+					<Invert elev="73.311" flowDir="in" refPipe="Pipe524 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH11 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.740063515849" elevSump="73.415544629266">
+					<Center>6687542.812127158977 24517504.763826649636</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.415544629266" flowDir="in" refPipe="BATP10 (Battery Room)"></Invert>
+					<Invert elev="73.416" flowDir="out" refPipe="BATP11 (Battery Room)"></Invert>
+					<Invert elev="73.416" flowDir="in" refPipe="Pipe507 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH7 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.740063357618" elevSump="73.868725772935">
+					<Center>6687487.028287653811 24517466.133391544223</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.868725772935" flowDir="in" refPipe="BATP06 (Battery Room)"></Invert>
+					<Invert elev="73.869" flowDir="out" refPipe="BATP07 (Battery Room)"></Invert>
+					<Invert elev="73.869" flowDir="in" refPipe="Pipe503 (1) (1) (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH8 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.74006282003" elevSump="73.774">
+					<Center>6687498.725890586153 24517474.234008103609</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.774" flowDir="in" refPipe="BATP07 (Battery Room)"></Invert>
+					<Invert elev="73.774120973639" flowDir="out" refPipe="BATP08 (Battery Room)"></Invert>
+					<Invert elev="73.774" flowDir="in" refPipe="Pipe573 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH1 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.739964303294" elevSump="74.563313728149">
+					<Center>6687401.398710016161 24517406.844381537288</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="74.563313728149" flowDir="out" refPipe="BATP01 (Battery Room)"></Invert>
+					<Invert elev="74.62" flowDir="in" refPipe="Pipe491 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH2 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.739921833791" elevSump="74.482700324123">
+					<Center>6687411.332842446864 24517413.727958090603</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="74.482700324123" flowDir="in" refPipe="BATP01 (Battery Room)"></Invert>
+					<Invert elev="74.483" flowDir="out" refPipe="BATP02 (Battery Room)"></Invert>
+					<Invert elev="74.483" flowDir="in" refPipe="Pipe493 (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH9 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.73708193221" elevSump="73.634">
+					<Center>6687515.782188987359 24517486.33566513285</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.634462103377" flowDir="in" refPipe="BATP08 (Battery Room)"></Invert>
+					<Invert elev="73.634" flowDir="out" refPipe="BATP09 (Battery Room)"></Invert>
+					<Invert elev="73.634" flowDir="in" refPipe="Pipe505 (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="BAT-MH14 (Battery Room)" desc="Concentric Cylindrical Structure SI" elevRim="76.733655270649" elevSump="73.198">
+					<Center>6687569.240254516713 24517523.913433726877</Center>
+					<CircStruct diameter="900." material="Plastic" thickness="0.02"></CircStruct>
+					<Invert elev="73.198314110942" flowDir="in" refPipe="BATP13 (Battery Room)"></Invert>
+					<Invert elev="73.198" flowDir="out" refPipe="BATP14 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH392 (Battery Room)" desc="Null Structure" elevRim="76.4535">
+					<Center>6687466.157170852646 24517429.663244035095</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe501 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH407 (Battery Room)" desc="Null Structure" elevRim="76.4535">
+					<Center>6687551.70671922341 24517488.891723264009</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe511 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH411 (Battery Room)" desc="Null Structure" elevRim="76.4535">
+					<Center>6687538.877089616843 24517473.837596718222</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe513 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH409 (Battery Room)" desc="Null Structure" elevRim="76.4535">
+					<Center>6687534.23436809238 24517476.795893233269</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe512 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH413 (Battery Room)" desc="Null Structure" elevRim="76.4535">
+					<Center>6687521.984731500037 24517468.311557464302</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe514 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH387 (Battery Room)" desc="Null Structure" elevRim="76.4535">
+					<Center>6687452.500223850831 24517420.208160769194</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe498 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH405 (Battery Room)" desc="Null Structure" elevRim="76.4535">
+					<Center>6687569.255316968076 24517494.873070280999</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe510 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH459 (Battery Room)" desc="Null Structure" elevRim="76.418046593551">
+					<Center>6687507.816037221812 24517458.475774556398</Center>
+					<Connection></Connection>
+					<Invert elev="76.312538265493" flowDir="out" refPipe="Pipe560 (Battery Room)"></Invert>
+					<Invert elev="76.312371704334" flowDir="out" refPipe="Pipe515 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH378 (Battery Room)" desc="Null Structure" elevRim="76.4055">
+					<Center>6687410.01953952387 24517390.79527932778</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe492 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH425 (Battery Room)" desc="Null Structure" elevRim="76.4055">
+					<Center>6687440.333397885785 24517411.780163053423</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe520 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH415 (Battery Room)" desc="Null Structure" elevRim="76.4055">
+					<Center>6687508.474120972678 24517458.953710909933</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="in" refPipe="Pipe515 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH383 (Battery Room)" desc="Null Structure" elevRim="76.4055">
+					<Center>6687426.909357151948 24517396.316694263369</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe495 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH423 (Battery Room)" desc="Null Structure" elevRim="76.4055">
+					<Center>6687483.051878253929 24517435.186003822833</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe519 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH419 (Battery Room)" desc="Null Structure" elevRim="76.4055">
+					<Center>6687496.151716233231 24517450.441843215376</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="out" refPipe="Pipe517 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH516 (Battery Room)" desc="Null Structure" elevRim="76.4055">
+					<Center>6687470.731471970677 24517426.657499626279</Center>
+					<Connection></Connection>
+					<Invert elev="76.3" flowDir="in" refPipe="Pipe587 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH463 (Battery Room)" desc="Null Structure" elevRim="76.400610117542">
+					<Center>6687533.91236784216 24517476.573015905917</Center>
+					<Connection></Connection>
+					<Invert elev="76.295" flowDir="out" refPipe="Pipe564 (Battery Room)"></Invert>
+					<Invert elev="76.295104873849" flowDir="in" refPipe="Pipe512 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH453 (Battery Room)" desc="Null Structure" elevRim="76.400003001424">
+					<Center>6687466.524591999128 24517429.908355157822</Center>
+					<Connection></Connection>
+					<Invert elev="76.294" flowDir="out" refPipe="Pipe584 (Battery Room)"></Invert>
+					<Invert elev="76.294479048976" flowDir="in" refPipe="Pipe501 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH388 (Battery Room)" desc="Null Structure" elevRim="76.396505485994">
+					<Center>6687451.903559011407 24517419.789701875299</Center>
+					<Connection></Connection>
+					<Invert elev="76.290890280118" flowDir="in" refPipe="Pipe498 (Battery Room)"></Invert>
+					<Invert elev="76.291" flowDir="out" refPipe="Pipe574 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH465 (Battery Room)" desc="Null Structure" elevRim="76.390721310769">
+					<Center>6687552.677497410215 24517489.568041071296</Center>
+					<Connection></Connection>
+					<Invert elev="76.285" flowDir="out" refPipe="Pipe566 (Battery Room)"></Invert>
+					<Invert elev="76.285210772161" flowDir="in" refPipe="Pipe511 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH427 (Battery Room)" desc="Null Structure" elevRim="76.386648893194">
+					<Center>6687411.259935102426 24517391.654034823179</Center>
+					<Connection></Connection>
+					<Invert elev="76.281141803041" flowDir="in" refPipe="Pipe492 (Battery Room)"></Invert>
+					<Invert elev="76.281" flowDir="out" refPipe="Pipe521 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH466 (Battery Room)" desc="Null Structure" elevRim="76.378547745598">
+					<Center>6687496.834402842447 24517450.914692029357</Center>
+					<Connection></Connection>
+					<Invert elev="76.273028714421" flowDir="out" refPipe="Pipe567 (1) (Battery Room)"></Invert>
+					<Invert elev="76.27264809089" flowDir="in" refPipe="Pipe517 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH464 (Battery Room)" desc="Null Structure" elevRim="76.373964594121">
+					<Center>6687536.801496124826 24517472.400401987135</Center>
+					<Connection></Connection>
+					<Invert elev="76.268" flowDir="out" refPipe="Pipe565 (Battery Room)"></Invert>
+					<Invert elev="76.268442470591" flowDir="in" refPipe="Pipe513 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH456 (Battery Room)" desc="Null Structure" elevRim="76.359938466872">
+					<Center>6687481.027315966785 24517433.784144420177</Center>
+					<Connection></Connection>
+					<Invert elev="76.254209195077" flowDir="out" refPipe="Pipe557 (Battery Room)"></Invert>
+					<Invert elev="76.254427549168" flowDir="in" refPipe="Pipe519 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH454 (Battery Room)" desc="Null Structure" elevRim="76.354037220156">
+					<Center>6687441.304176124744 24517412.456480897963</Center>
+					<Connection></Connection>
+					<Invert elev="76.248315910228" flowDir="out" refPipe="Pipe577 (Battery Room)"></Invert>
+					<Invert elev="76.248526681588" flowDir="in" refPipe="Pipe520 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH437 (Battery Room)" desc="Null Structure" elevRim="76.315709407743">
+					<Center>6687425.242300308309 24517395.167899079621</Center>
+					<Connection></Connection>
+					<Invert elev="76.20920351881" flowDir="in" refPipe="Pipe495 (Battery Room)"></Invert>
+					<Invert elev="76.21016150827" flowDir="out" refPipe="Pipe548 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH508 (Battery Room)" desc="Null Structure" elevRim="76.3155">
+					<Center>6687500.466319792904 24517447.238773658872</Center>
+					<Connection></Connection>
+					<Invert elev="76.21" flowDir="in" refPipe="Pipe585 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH468 (Battery Room)" desc="Null Structure" elevRim="76.296145636125">
+					<Center>6687500.852101964876 24517448.559827812016</Center>
+					<Connection></Connection>
+					<Invert elev="76.190644920117" flowDir="out" refPipe="Pipe569 (Battery Room)"></Invert>
+					<Invert elev="76.19063059994" flowDir="out" refPipe="Pipe585 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH389 (Battery Room)" desc="Null Structure" elevRim="76.289045295335">
+					<Center>6687457.001478034072 24517417.15190859884</Center>
+					<Connection></Connection>
+					<Invert elev="76.183545295335" flowDir="out" refPipe="Pipe499 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH382 (Battery Room)" desc="Null Structure" elevRim="76.263563133146">
+					<Center>6687422.260241497308 24517399.270610723644</Center>
+					<Connection></Connection>
+					<Invert elev="76.158063133146" flowDir="out" refPipe="Pipe532 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH457 (Battery Room)" desc="Null Structure" elevRim="76.250930240761">
+					<Center>6687478.282719695009 24517438.056797061116</Center>
+					<Connection></Connection>
+					<Invert elev="76.145430240761" flowDir="out" refPipe="Pipe558 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH390 (Battery Room)" desc="Null Structure" elevRim="76.248264071877">
+					<Center>6687454.829660030082 24517415.65114075318</Center>
+					<Connection></Connection>
+					<Invert elev="76.142337093698" flowDir="in" refPipe="Pipe499 (Battery Room)"></Invert>
+					<Invert elev="76.142743739583" flowDir="out" refPipe="Pipe578 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH417 (Battery Room)" desc="Null Structure" elevRim="76.243475266948">
+					<Center>6687512.837597363628 24517455.809105180204</Center>
+					<Connection></Connection>
+					<Invert elev="76.137975266948" flowDir="out" refPipe="Pipe516 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH460 (Battery Room)" desc="Null Structure" elevRim="76.226679619717">
+					<Center>6687510.682406565174 24517454.288914240897</Center>
+					<Connection></Connection>
+					<Invert elev="76.121179619716" flowDir="out" refPipe="Pipe561 (Battery Room)"></Invert>
+					<Invert elev="76.121179619702" flowDir="in" refPipe="Pipe516 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH403 (Battery Room)" desc="Null Structure" elevRim="76.2165">
+					<Center>6687564.89283108525 24517498.016314968467</Center>
+					<Connection></Connection>
+					<Invert elev="76.111" flowDir="out" refPipe="Pipe543 (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH514 (Battery Room)" desc="Null Structure" elevRim="76.104824739097">
+					<Center>6687564.55973380059 24517498.643656250089</Center>
+					<Connection></Connection>
+					<Invert elev="75.999324739097" flowDir="out" refPipe="Pipe543 (Battery Room)"></Invert>
+					<Invert elev="75.999324739097" flowDir="in" refPipe="Pipe543 (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH462 (Battery Room)" desc="Null Structure" elevRim="75.7785851221">
+					<Center>6687523.222861297429 24517469.17413270846</Center>
+					<Connection></Connection>
+					<Invert elev="75.672940401129" flowDir="out" refPipe="Pipe563 (Battery Room)"></Invert>
+					<Invert elev="75.673078230625" flowDir="in" refPipe="Pipe514 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH435 (Battery Room)" desc="Null Structure" elevRim="75.5055">
+					<Center>6687567.495141501538 24517493.667223826051</Center>
+					<Connection></Connection>
+					<Invert elev="75.4" flowDir="in" refPipe="Pipe510 (Battery Room)"></Invert>
+					<Invert elev="75.4" flowDir="out" refPipe="Pipe542 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH515 (Battery Room)" desc="Null Structure" elevRim="75.054509574588">
+					<Center>6687469.86258887127 24517427.073454868048</Center>
+					<Connection></Connection>
+					<Invert elev="74.948808508247" flowDir="in" refPipe="Pipe586 (Battery Room)"></Invert>
+					<Invert elev="74.949" flowDir="out" refPipe="Pipe587 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH380 (Battery Room)" desc="Null Structure" elevRim="75.027640039182">
+					<Center>6687424.525946466252 24517394.67677391693</Center>
+					<Connection></Connection>
+					<Invert elev="74.922140039182" flowDir="out" refPipe="Pipe493 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH376 (Battery Room)" desc="Null Structure" elevRim="75.015219328585">
+					<Center>6687414.593840641901 24517387.789534918964</Center>
+					<Connection></Connection>
+					<Invert elev="74.909719328585" flowDir="out" refPipe="Pipe491 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH385 (Battery Room)" desc="Null Structure" elevRim="74.97898374762">
+					<Center>6687444.638002963737 24517408.59154754132</Center>
+					<Connection></Connection>
+					<Invert elev="74.87348374762" flowDir="out" refPipe="Pipe496 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH504 (Battery Room)" desc="Null Structure" elevRim="74.976850084414">
+					<Center>6687466.252034726553 24517432.144011847675</Center>
+					<Connection></Connection>
+					<Invert elev="74.871333413643" flowDir="out" refPipe="Pipe581 (Battery Room)"></Invert>
+					<Invert elev="74.871" flowDir="out" refPipe="Pipe586 (Battery Room)"></Invert>
+					<Invert elev="74.871333413728" flowDir="in" refPipe="Pipe584 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH386 (Battery Room)" desc="Null Structure" elevRim="74.876819735197">
+					<Center>6687454.315172993578 24517415.949376583099</Center>
+					<Connection></Connection>
+					<Invert elev="74.771304509711" flowDir="out" refPipe="Pipe497 (Battery Room)"></Invert>
+					<Invert elev="74.771" flowDir="in" refPipe="Pipe578 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH489 (Battery Room)" desc="Null Structure" elevRim="74.805500000014">
+					<Center>6687458.301637261175 24517443.309318263084</Center>
+					<Connection></Connection>
+					<Invert elev="74.7" flowDir="out" refPipe="Pipe531 (Battery Room)"></Invert>
+					<Invert elev="74.700000000013" flowDir="in" refPipe="Pipe581 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH511 (Battery Room)" desc="Null Structure" elevRim="74.76354644856">
+					<Center>6687412.497614025138 24517412.045997738838</Center>
+					<Connection></Connection>
+					<Invert elev="74.65804644856" flowDir="in" refPipe="Pipe493 (Battery Room)"></Invert>
+					<Invert elev="74.658046448552" flowDir="out" refPipe="Pipe493 (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH396 (Battery Room)" desc="Null Structure" elevRim="74.761046700294">
+					<Center>6687501.558915461414 24517448.159473456442</Center>
+					<Connection></Connection>
+					<Invert elev="74.655546700294" flowDir="out" refPipe="Pipe503 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH513 (Battery Room)" desc="Null Structure" elevRim="74.755882080996">
+					<Center>6687497.019008792005 24517451.191467475146</Center>
+					<Connection></Connection>
+					<Invert elev="74.650382080974" flowDir="in" refPipe="Pipe567 (1) (Battery Room)"></Invert>
+					<Invert elev="74.650382080995" flowDir="out" refPipe="Pipe567 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH492 (Battery Room)" desc="Null Structure" elevRim="74.705500000007">
+					<Center>6687432.151002369821 24517426.623796537519</Center>
+					<Connection></Connection>
+					<Invert elev="74.6" flowDir="out" refPipe="Pipe551 (Battery Room)"></Invert>
+					<Invert elev="74.599999999864" flowDir="in" refPipe="Pipe496 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH505 (Battery Room)" desc="Null Structure" elevRim="74.684143489698">
+					<Center>6687491.401781549677 24517459.709225963801</Center>
+					<Connection></Connection>
+					<Invert elev="74.578643489652" flowDir="in" refPipe="Pipe503 (Battery Room)"></Invert>
+					<Invert elev="74.578643489695" flowDir="out" refPipe="Pipe503 (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH394 (Battery Room)" desc="Null Structure" elevRim="74.631501400149">
+					<Center>6687480.578031430021 24517433.483463149518</Center>
+					<Connection></Connection>
+					<Invert elev="74.526001400149" flowDir="out" refPipe="Pipe502 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH397 (Battery Room)" desc="Null Structure" elevRim="74.629761380724">
+					<Center>6687510.617040917277 24517454.301734536886</Center>
+					<Connection></Connection>
+					<Invert elev="74.524261380724" flowDir="out" refPipe="Pipe504 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH491 (Battery Room)" desc="Null Structure" elevRim="74.6055">
+					<Center>6687441.958433758467 24517433.792870417237</Center>
+					<Connection></Connection>
+					<Invert elev="74.5" flowDir="out" refPipe="Pipe497 (1) (Battery Room)"></Invert>
+					<Invert elev="74.5" flowDir="in" refPipe="Pipe497 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH506 (Battery Room)" desc="Null Structure" elevRim="74.546066690374">
+					<Center>6687490.072394818068 24517459.839897371829</Center>
+					<Connection></Connection>
+					<Invert elev="74.440566690372" flowDir="in" refPipe="Pipe503 (1) (Battery Room)"></Invert>
+					<Invert elev="74.440566690348" flowDir="out" refPipe="Pipe503 (1) (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH510 (Battery Room)" desc="Null Structure" elevRim="74.5255">
+					<Center>6687468.508256565779 24517450.91253105551</Center>
+					<Connection></Connection>
+					<Invert elev="74.42" flowDir="in" refPipe="Pipe502 (Battery Room)"></Invert>
+					<Invert elev="74.42" flowDir="out" refPipe="Pipe502 (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH493 (Battery Room)" desc="Null Structure" elevRim="74.5255">
+					<Center>6687498.745701988228 24517471.444917801768</Center>
+					<Connection></Connection>
+					<Invert elev="74.42" flowDir="out" refPipe="Pipe573 (Battery Room)"></Invert>
+					<Invert elev="74.42" flowDir="in" refPipe="Pipe504 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH507 (Battery Room)" desc="Null Structure" elevRim="74.4255">
+					<Center>6687486.877158267424 24517464.685548145324</Center>
+					<Connection></Connection>
+					<Invert elev="74.32" flowDir="in" refPipe="Pipe503 (1) (1) (Battery Room)"></Invert>
+					<Invert elev="74.32" flowDir="out" refPipe="Pipe503 (1) (1) (1) (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH398 (Battery Room)" desc="Null Structure" elevRim="74.044348261228">
+					<Center>6687526.52537627425 24517465.354416240007</Center>
+					<Connection></Connection>
+					<Invert elev="73.938848261228" flowDir="out" refPipe="Pipe505 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH400 (Battery Room)" desc="Null Structure" elevRim="74.015775678428">
+					<Center>6687536.352211589925 24517472.099720716476</Center>
+					<Connection></Connection>
+					<Invert elev="73.862275678428" flowDir="out" refPipe="Pipe506 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH401 (Battery Room)" desc="Null Structure" elevRim="73.858621114153">
+					<Center>6687555.980012387969 24517485.748324606568</Center>
+					<Connection></Connection>
+					<Invert elev="73.705121114153" flowDir="out" refPipe="Pipe507 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH494 (Battery Room)" desc="Null Structure" elevRim="73.795013831961">
+					<Center>6687515.146160362288 24517481.78694582358</Center>
+					<Connection></Connection>
+					<Invert elev="73.689489363773" flowDir="out" refPipe="Pipe505 (1) (Battery Room)"></Invert>
+					<Invert elev="73.689" flowDir="in" refPipe="Pipe505 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH402 (Battery Room)" desc="Null Structure" elevRim="73.717135083435">
+					<Center>6687567.204023707658 24517493.463202614337</Center>
+					<Connection></Connection>
+					<Invert elev="73.611635083435" flowDir="out" refPipe="Pipe508 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH495 (Battery Room)" desc="Null Structure" elevRim="73.692984648697">
+					<Center>6687523.814601118676 24517490.204394094646</Center>
+					<Connection></Connection>
+					<Invert elev="73.587484648697" flowDir="out" refPipe="Pipe525 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH496 (Battery Room)" desc="Null Structure" elevRim="73.454811340771">
+					<Center>6687555.242166602984 24517510.736533842981</Center>
+					<Connection></Connection>
+					<Invert elev="73.34929651502" flowDir="out" refPipe="Pipe524 (Battery Room)"></Invert>
+					<Invert elev="73.349" flowDir="in" refPipe="Pipe508 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="MH497 (Battery Room)" desc="Null Structure" elevRim="73.333337227374">
+					<Center>6687571.478922950104 24517525.46372038871</Center>
+					<Connection></Connection>
+					<Invert elev="73.179837227374" flowDir="in" refPipe="BATP14 (Battery Room)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+			</Structs>
+			<Pipes>
+				<Pipe name="BATP01 (Battery Room)" refEnd="BAT-MH2 (Battery Room)" refStart="BAT-MH1 (Battery Room)" desc="PE Pipe SDR11" length="12.086236462894" slope="0.00667">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP02 (Battery Room)" refEnd="BAT-MH3 (Battery Room)" refStart="BAT-MH2 (Battery Room)" desc="PE Pipe SDR11" length="24.240012456227" slope="0.00667">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP03 (Battery Room)" refEnd="BAT-MH4 (Battery Room)" refStart="BAT-MH3 (Battery Room)" desc="PE Pipe SDR11" length="13.285719366706" slope="0.00667">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP04 (Battery Room)" refEnd="BAT-MH5 (Battery Room)" refStart="BAT-MH4 (Battery Room)" desc="PE Pipe SDR11" length="20.419294591123" slope="0.00667">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP05 (Battery Room)" refEnd="BAT-MH6 (Battery Room)" refStart="BAT-MH5 (Battery Room)" desc="PE Pipe SDR11" length="10.231235284173" slope="0.00667">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP06 (Battery Room)" refEnd="BAT-MH7 (Battery Room)" refStart="BAT-MH6 (Battery Room)" desc="PE Pipe SDR11" length="23.891688858543" slope="0.00666666">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP07 (Battery Room)" refEnd="BAT-MH8 (Battery Room)" refStart="BAT-MH7 (Battery Room)" desc="PE Pipe SDR11" length="14.228946834004" slope="0.006676679486">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP08 (Battery Room)" refEnd="BAT-MH9 (Battery Room)" refStart="BAT-MH8 (Battery Room)" desc="PE Pipe SDR11" length="20.913797421904" slope="0.006677983031">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP09 (Battery Room)" refEnd="BAT-MH10 (Battery Room)" refStart="BAT-MH9 (Battery Room)" desc="PE Pipe SDR11" length="9.259966352451" slope="0.006648777139">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP10 (Battery Room)" refEnd="BAT-MH11 (Battery Room)" refStart="BAT-MH10 (Battery Room)" desc="PE Pipe SDR11" length="23.457099094237" slope="0.00667">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP11 (Battery Room)" refEnd="BAT-MH12 (Battery Room)" refStart="BAT-MH11 (Battery Room)" desc="PE Pipe SDR11" length="15.786047862761" slope="0.00667">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP12 (Battery Room)" refEnd="BAT-MH13 (Battery Room)" refStart="BAT-MH12 (Battery Room)" desc="PE Pipe SDR11" length="12.093549634074" slope="0.00667">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe491 (Battery Room)" refEnd="BAT-MH1 (Battery Room)" refStart="MH376 (Battery Room)" desc="PE Pipe SDR11" length="23.179356961908" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe492 (Battery Room)" refEnd="MH427 (Battery Room)" refStart="MH378 (Battery Room)" desc="PE Pipe SDR11" length="1.508773615812" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe493 (Battery Room)" refEnd="MH511 (Battery Room)" refStart="MH380 (Battery Room)" desc="PE Pipe SDR11" length="21.129137770248" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe495 (Battery Room)" refEnd="MH437 (Battery Room)" refStart="MH383 (Battery Room)" desc="PE Pipe SDR11" length="2.02658651311" slope="0.044847700779">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe496 (Battery Room)" refEnd="MH492 (Battery Room)" refStart="MH385 (Battery Room)" desc="PE Pipe SDR11" length="21.935404738769" slope="0.012468655541">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe497 (Battery Room)" refEnd="MH491 (Battery Room)" refStart="MH386 (Battery Room)" desc="PE Pipe SDR11" length="21.706056363845" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe498 (Battery Room)" refEnd="MH388 (Battery Room)" refStart="MH387 (Battery Room)" desc="PE Pipe SDR11" length="0.728834524073" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe499 (Battery Room)" refEnd="MH390 (Battery Room)" refStart="MH389 (Battery Room)" desc="PE Pipe SDR11" length="2.640226445763" slope="0.015609729941">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe501 (Battery Room)" refEnd="MH453 (Battery Room)" refStart="MH392 (Battery Room)" desc="PE Pipe SDR11" length="0.441710586546" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe502 (Battery Room)" refEnd="MH510 (Battery Room)" refStart="MH394 (Battery Room)" desc="PE Pipe SDR11" length="21.20054503172" slope="0.005">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe503 (Battery Room)" refEnd="MH505 (Battery Room)" refStart="MH396 (Battery Room)" desc="PE Pipe SDR11" length="15.380834385234" slope="0.005">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe504 (Battery Room)" refEnd="MH493 (Battery Room)" refStart="MH397 (Battery Room)" desc="PE Pipe SDR11" length="20.852536796687" slope="0.005">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe505 (Battery Room)" refEnd="MH494 (Battery Room)" refStart="MH398 (Battery Room)" desc="PE Pipe SDR11" length="19.989422388846" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe506 (Battery Room)" refEnd="EndNullStruct530" refStart="MH400 (Battery Room)" desc="PE Pipe SDR11" length="22.023774680061" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe507 (Battery Room)" refEnd="BAT-MH11 (Battery Room)" refStart="MH401 (Battery Room)" desc="PE Pipe SDR11" length="23.131496068618" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe508 (Battery Room)" refEnd="MH496 (Battery Room)" refStart="MH402 (Battery Room)" desc="PE Pipe SDR11" length="21.012448079986" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe510 (Battery Room)" refEnd="MH435 (Battery Room)" refStart="MH405 (Battery Room)" desc="PE Pipe SDR11" length="2.315660455661" slope="0.421820679085">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe511 (Battery Room)" refEnd="MH465 (Battery Room)" refStart="MH407 (Battery Room)" desc="PE Pipe SDR11" length="1.183230656166" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe512 (Battery Room)" refEnd="MH463 (Battery Room)" refStart="MH409 (Battery Room)" desc="PE Pipe SDR11" length="0.391640685386" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe513 (Battery Room)" refEnd="MH464 (Battery Room)" refStart="MH411 (Battery Room)" desc="PE Pipe SDR11" length="2.524799579536" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe514 (Battery Room)" refEnd="MH462 (Battery Room)" refStart="MH413 (Battery Room)" desc="PE Pipe SDR11" length="1.63402336334" slope="0.415462372996">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe515 (Battery Room)" refEnd="MH459 (Battery Room)" refStart="MH415 (Battery Room)" desc="PE Pipe SDR11" length="0.813418981984" slope="0.015211269744">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe516 (Battery Room)" refEnd="MH460 (Battery Room)" refStart="MH417 (Battery Room)" desc="PE Pipe SDR11" length="2.637443831337" slope="0.00636828266">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe517 (Battery Room)" refEnd="MH466 (Battery Room)" refStart="MH419 (Battery Room)" desc="PE Pipe SDR11" length="0.8309001951" slope="0.032936255019">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe519 (Battery Room)" refEnd="MH456 (Battery Room)" refStart="MH423 (Battery Room)" desc="PE Pipe SDR11" length="2.462953326318" slope="0.018506340989">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe520 (Battery Room)" refEnd="MH454 (Battery Room)" refStart="MH425 (Battery Room)" desc="PE Pipe SDR11" length="1.184257454521" slope="0.043505749746">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe521 (Battery Room)" refEnd="MH427 (Battery Room)" refStart="StartNullStruct318" desc="PE Pipe SDR11" length="2.176447262951" slope="0.897584662773">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe497 (1) (Battery Room)" refEnd="BAT-MH4 (Battery Room)" refStart="MH491 (Battery Room)" desc="PE Pipe SDR11" length="1.333582693022" slope="0.205147642906">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe505 (1) (Battery Room)" refEnd="BAT-MH9 (Battery Room)" refStart="MH494 (Battery Room)" desc="PE Pipe SDR11" length="4.593305872237" slope="0.012081366834">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe524 (Battery Room)" refEnd="BAT-MH12 (Battery Room)" refStart="MH496 (Battery Room)" desc="PE Pipe SDR11" length="3.063960545479" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe525 (Battery Room)" refEnd="BAT-MH10 (Battery Room)" refStart="MH495 (Battery Room)" desc="PE Pipe SDR11" length="1.23886867104" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe531 (Battery Room)" refEnd="BAT-MH5 (Battery Room)" refStart="MH489 (Battery Room)" desc="PE Pipe SDR11" length="3.516220694977" slope="0.174367105043">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe532 (Battery Room)" refEnd="MH382 (Battery Room)" refStart="StartNullStruct319" desc="PE Pipe SDR11" length="1.502724033746" slope="1.723726237645">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe542 (Battery Room)" refEnd="MH435 (Battery Room)" refStart="StartNullStruct320" desc="PE Pipe SDR11" length="2.018150655416" slope="1.966539879913">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe543 (Battery Room)" refEnd="MH514 (Battery Room)" refStart="StartNullStruct321" desc="PE Pipe SDR11" length="2.597945557963" slope="2.983788545048">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe548 (Battery Room)" refEnd="MH437 (Battery Room)" refStart="StartNullStruct322" desc="PE Pipe SDR11" length="1.63347931537" slope="1.298246054352">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe551 (Battery Room)" refEnd="BAT-MH3 (Battery Room)" refStart="MH492 (Battery Room)" desc="PE Pipe SDR11" length="1.287964081291" slope="0.221889539903">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe557 (Battery Room)" refEnd="MH456 (Battery Room)" refStart="StartNullStruct323" desc="PE Pipe SDR11" length="1.879555785733" slope="2.360336787117">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe558 (Battery Room)" refEnd="MH457 (Battery Room)" refStart="StartNullStruct324" desc="PE Pipe SDR11" length="1.795557574814" slope="2.286305792925">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe560 (Battery Room)" refEnd="MH459 (Battery Room)" refStart="StartNullStruct325" desc="PE Pipe SDR11" length="2.069650380161" slope="1.839517065907">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe561 (Battery Room)" refEnd="MH460 (Battery Room)" refStart="StartNullStruct326" desc="PE Pipe SDR11" length="2.044706279095" slope="1.262909149279">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe563 (Battery Room)" refEnd="MH462 (Battery Room)" refStart="StartNullStruct327" desc="PE Pipe SDR11" length="1.887131017149" slope="3.158186990219">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe564 (Battery Room)" refEnd="MH463 (Battery Room)" refStart="StartNullStruct328" desc="PE Pipe SDR11" length="2.617035889318" slope="3.272847209899">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe565 (Battery Room)" refEnd="MH464 (Battery Room)" refStart="StartNullStruct329" desc="PE Pipe SDR11" length="2.530615240692" slope="3.155488751038">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe566 (Battery Room)" refEnd="MH465 (Battery Room)" refStart="StartNullStruct330" desc="PE Pipe SDR11" length="2.756142114191" slope="3.486332679695">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe567 (Battery Room)" refEnd="MH513 (Battery Room)" refStart="StartNullStruct331" desc="PE Pipe SDR11" length="1.453958368719" slope="0.015849447036">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe569 (Battery Room)" refEnd="MH468 (Battery Room)" refStart="StartNullStruct332" desc="PE Pipe SDR11" length="1.56843857275" slope="5.144149037465">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe573 (Battery Room)" refEnd="BAT-MH8 (Battery Room)" refStart="MH493 (Battery Room)" desc="PE Pipe SDR11" length="2.862993748418" slope="0.23161089592">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe574 (Battery Room)" refEnd="MH388 (Battery Room)" refStart="StartNullStruct333" desc="PE Pipe SDR11" length="1.858344256707" slope="1.645614595378">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe577 (Battery Room)" refEnd="MH454 (Battery Room)" refStart="StartNullStruct334" desc="PE Pipe SDR11" length="4.533260563476" slope="0.348296882819">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe578 (Battery Room)" refEnd="MH390 (Battery Room)" refStart="MH386 (Battery Room)" desc="PE Pipe SDR11" length="1.495099464271" slope="2.306701308291">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP13 (Battery Room)" refEnd="BAT-MH14 (Battery Room)" refStart="BAT-MH13 (Battery Room)" desc="PE Pipe SDR11" length="4.801262308998" slope="0.00667">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="BATP14 (Battery Room)" refEnd="MH497 (Battery Room)" refStart="BAT-MH14 (Battery Room)" desc="PE Pipe SDR11" length="2.723114939702" slope="0.006669999998">
+					<CircPipe diameter="131." material="PE/SE2" thickness="0.0145"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe581 (Battery Room)" refEnd="MH504 (Battery Room)" refStart="MH489 (Battery Room)" desc="PE Pipe SDR11" length="13.707743882422" slope="0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe584 (Battery Room)" refEnd="MH453 (Battery Room)" refStart="MH504 (Battery Room)" desc="PE Pipe SDR11" length="2.663912257829" slope="0.631675913071">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe503 (1) (Battery Room)" refEnd="MH506 (Battery Room)" refStart="MH505 (Battery Room)" desc="PE Pipe SDR11" length="1.342910757112" slope="0.103366879773">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe503 (1) (1) (Battery Room)" refEnd="MH507 (Battery Room)" refStart="MH506 (Battery Room)" desc="PE Pipe SDR11" length="5.805549445149" slope="0.020771969892">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe503 (1) (1) (1) (Battery Room)" refEnd="BAT-MH7 (Battery Room)" refStart="MH507 (Battery Room)" desc="PE Pipe SDR11" length="1.523972309186" slope="0.309814528264">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe585 (Battery Room)" refEnd="MH508 (Battery Room)" refStart="MH468 (Battery Room)" desc="PE Pipe SDR11" length="1.376367368623" slope="-0.014074235405">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe567 (1) (Battery Room)" refEnd="MH466 (Battery Room)" refStart="MH513 (Battery Room)" desc="PE Pipe SDR11" length="1.656401551871" slope="4.877323053176">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe502 (1) (Battery Room)" refEnd="BAT-MH6 (Battery Room)" refStart="MH510 (Battery Room)" desc="PE Pipe SDR11" length="2.008173666555" slope="0.199030997965">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe493 (1) (Battery Room)" refEnd="BAT-MH2 (Battery Room)" refStart="MH511 (Battery Room)" desc="PE Pipe SDR11" length="2.053369112853" slope="0.085559869455">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe543 (1) (Battery Room)" refEnd="MH403 (Battery Room)" refStart="MH514 (Battery Room)" desc="PE Pipe SDR11" length="0.719014776325" slope="0.157225036979">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe586 (Battery Room)" refEnd="MH515 (Battery Room)" refStart="MH504 (Battery Room)" desc="PE Pipe SDR11" length="6.225166943909" slope="-0.0125">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="Pipe587 (Battery Room)" refEnd="MH516 (Battery Room)" refStart="MH515 (Battery Room)" desc="PE Pipe SDR11" length="1.659270202104" slope="-1.402448220157">
+					<CircPipe diameter="90." material="PE/SE2" thickness="0.01"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+			</Pipes>
+		</PipeNetwork>
+	</PipeNetworks>
+</LandXML>

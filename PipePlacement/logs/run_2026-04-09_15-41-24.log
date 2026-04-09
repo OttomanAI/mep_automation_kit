@@ -1,0 +1,188 @@
+============================================================
+  LandXML to Revit CSV Converter
+  Batch mode: processes all sites from revit_configs/
+  Log: logs/run_2026-04-09_15-41-24.log
+============================================================
+
+Building site_configs.json...
+
+Loaded 7 site config(s)
+
+────────────────────────────────────────────────────────────
+  Battery_Room
+────────────────────────────────────────────────────────────
+  XML:   HEL11-C3D-CIV - Drainage Battery Room Model.xml
+  Units: Civil 3D=m, Revit=mm (factor: 1000.0)
+  Found: 78 structures, 77 pipes
+
+  Structure filters (1):
+    name contains "BAT-MH"
+    -> 14 manholes
+
+  Pipe replacements (1):
+    name: "(Battery Room)" -> (delete)
+
+  Structure replacements (1):
+    name: "(Battery Room)" -> (delete)
+
+  Pipes -> pipes/HEL11-C3D-CIV - Drainage Battery Room Model_pipes.csv
+    77 pipes, diameters: [90.0, 131.0]
+
+  Manholes -> manholes/HEL11-C3D-CIV - Drainage Battery Room Model_manholes.csv
+    14 manholes, sizes: ['900.']
+    Depth range: 2177 to 3536
+    Z values = raw XML elevation in mm
+
+────────────────────────────────────────────────────────────
+  Drainage_Ditches
+────────────────────────────────────────────────────────────
+  XML:   HEL11-C3D-CIV - Drainage Ditches.xml
+  Units: Civil 3D=m, Revit=mm (factor: 1000.0)
+  Found: 60 structures, 55 pipes
+
+  Structure filters (1):
+    name contains "D-CP"
+    -> 27 manholes
+
+  Pipe replacements (1):
+    name: "(Drainage Ditches)" -> (delete)
+
+  Structure replacements (1):
+    name: "(Drainage Ditches)" -> (delete)
+
+  Pipes -> pipes/HEL11-C3D-CIV - Drainage Ditches_pipes.csv
+    55 pipes, diameters: [163.6]
+
+  Manholes -> manholes/HEL11-C3D-CIV - Drainage Ditches_manholes.csv
+    27 manholes, sizes: ['900.']
+    Depth range: 192 to 3021
+    Z values = raw XML elevation in mm
+
+────────────────────────────────────────────────────────────
+  Foul_Water
+────────────────────────────────────────────────────────────
+  XML:   HEL11-C3D-CIV - Drainage Foul Water Model.xml
+  Units: Civil 3D=m, Revit=mm (factor: 1000.0)
+  Found: 464 structures, 441 pipes
+
+  Structure filters (1):
+    name contains "FWMH"
+    -> 60 manholes
+
+  Pipe replacements (1):
+    name: "(Foul Water)" -> (delete)
+
+  Structure replacements (1):
+    name: "(Foul Water)" -> (delete)
+
+  Pipes -> pipes/HEL11-C3D-CIV - Drainage Foul Water Model_pipes.csv
+    441 pipes, diameters: [0.0, 90.0, 131.0, 163.6, 204.6, 245.4]
+
+  Manholes -> manholes/HEL11-C3D-CIV - Drainage Foul Water Model_manholes.csv
+    60 manholes, sizes: ['1900.', '900.']
+    Depth range: 1422 to 5086
+    Z values = raw XML elevation in mm
+
+────────────────────────────────────────────────────────────
+  Oily_Water
+────────────────────────────────────────────────────────────
+  XML:   HEL11-C3D-CIV - Drainage Oily Water Model.xml
+  Units: Civil 3D=m, Revit=mm (factor: 1000.0)
+  Found: 304 structures, 287 pipes
+
+  Structure filters (1):
+    name contains "TFD-MH"
+    -> 24 manholes
+
+  Pipe replacements (1):
+    name: "(Oily Water)" -> (delete)
+
+  Structure replacements (1):
+    name: "(Oily Water)" -> (delete)
+
+  Pipes -> pipes/HEL11-C3D-CIV - Drainage Oily Water Model_pipes.csv
+    287 pipes, diameters: [0.0, 40.8, 90.0, 131.0, 163.6, 245.4]
+
+  Manholes -> manholes/HEL11-C3D-CIV - Drainage Oily Water Model_manholes.csv
+    24 manholes, sizes: ['560.', '900.']
+    Depth range: 1985 to 3353
+    Z values = raw XML elevation in mm
+
+────────────────────────────────────────────────────────────
+  Rainwater
+────────────────────────────────────────────────────────────
+  XML:   HEL11-C3D-CIV - Drainage Rainwater Model.xml
+  Units: Civil 3D=m, Revit=mm (factor: 1000.0)
+  Found: 81 structures, 114 pipes
+
+  Structure filters (1):
+    name contains "RW-MH"
+    -> 36 manholes
+
+  Pipe replacements (1):
+    name: "(Rainwater)" -> (delete)
+
+  Structure replacements (1):
+    name: "(Rainwater)" -> (delete)
+
+  Pipes -> pipes/HEL11-C3D-CIV - Drainage Rainwater Model_pipes.csv
+    114 pipes, diameters: [131.0, 245.4, 327.2, 572.8, 654.6]
+
+  Manholes -> manholes/HEL11-C3D-CIV - Drainage Rainwater Model_manholes.csv
+    36 manholes, sizes: ['900.']
+    Depth range: 671 to 5856
+    Z values = raw XML elevation in mm
+
+────────────────────────────────────────────────────────────
+  Stormwater
+────────────────────────────────────────────────────────────
+  XML:   HEL11-C3D-CIV - Drainage SW + CP Model.xml
+  Units: Civil 3D=m, Revit=mm (factor: 1000.0)
+  Found: 313 structures, 300 pipes
+
+  Structure filters (1):
+    name contains "SWMH"
+    -> 77 manholes
+
+  Pipe replacements (1):
+    name: "(Stormwater)" -> (delete)
+
+  Structure replacements (1):
+    name: "(Stormwater)" -> (delete)
+
+  Pipes -> pipes/HEL11-C3D-CIV - Drainage SW + CP Model_pipes.csv
+    300 pipes, diameters: [0.0, 131.0, 163.6, 245.4, 327.2, 409.0, 491.0, 572.8, 654.6]
+
+  Manholes -> manholes/HEL11-C3D-CIV - Drainage SW + CP Model_manholes.csv
+    77 manholes, sizes: ['900.']
+    Depth range: 1830 to 6197
+    Z values = raw XML elevation in mm
+
+────────────────────────────────────────────────────────────
+  Sub_Soil
+────────────────────────────────────────────────────────────
+  XML:   HEL11-C3D-CIV - Drainage Sub Soil Model.xml
+  Units: Civil 3D=m, Revit=mm (factor: 1000.0)
+  Found: 239 structures, 223 pipes
+
+  Structure filters (1):
+    name contains "SD-MH"
+    -> 23 manholes
+
+  Pipe replacements (1):
+    name: "(Sub Soil)" -> (delete)
+
+  Structure replacements (1):
+    name: "(Sub Soil)" -> (delete)
+
+  Pipes -> pipes/HEL11-C3D-CIV - Drainage Sub Soil Model_pipes.csv
+    223 pipes, diameters: [90.0, 163.6]
+
+  Manholes -> manholes/HEL11-C3D-CIV - Drainage Sub Soil Model_manholes.csv
+    23 manholes, sizes: ['400.', '630.']
+    Depth range: 1431 to 3048
+    Z values = raw XML elevation in mm
+
+============================================================
+  Complete: 7 processed, 0 skipped
+============================================================
