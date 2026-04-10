@@ -6,9 +6,19 @@ Automates the transfer of Civil 3D pipe network data (LandXML) into Autodesk Rev
 
 ## Quick Start
 
+### Step 0 — Export LandXML from Civil 3D
+
+Before anything else, you need to export a LandXML file from Civil 3D containing the pipe networks you want to transfer into Revit.
+
+In Civil 3D, go to **Output → Export to LandXML**. In the export dialog, you will see a list of all available data — surfaces, alignments, pipe networks, etc. Make sure only the pipe networks you want to model are checked. You don't strictly need to uncheck everything else (surfaces, alignments, etc.) — the Python parser will ignore anything that isn't a pipe network — but **you must be careful with which pipe networks are ticked**. Any pipe network that is checked will be included in the export, and its data will come through into the CSV output. If you leave unwanted networks checked, those pipes and structures will end up in your Revit model.
+
+So the rule is simple: **check only the networks you want, uncheck the ones you don't**. Everything else in the export dialog can be left as-is.
+
+Save the `.xml` file and move on to Step 1.
+
 ### Step 1 — Prepare the XML Data
 
-Export each drainage network from Civil 3D as a LandXML (`.xml`) file. Place all exported XML files into the `01_XML_Data/` folder.
+Place all exported XML files into the `01_XML_Data/` folder.
 
 Each XML file needs a corresponding config file in `01_XML_Data/00_XML_Configs/`. A config `.txt` file controls how the parser filters structures, strips network name suffixes, and transforms coordinates. The parser auto-matches XML files to configs by checking if the config filename (e.g. `Battery_Room.txt`) appears in the XML filename (e.g. `HEL11-C3D-CIV - Drainage Battery Room Model.xml`). You do not need to hardcode filenames — just make sure the config name is a recognisable substring of the XML filename.
 
